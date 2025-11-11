@@ -1,0 +1,82 @@
+.header {
+	height: 114px;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	font-size: 16px;
+}
+
+.container {
+	gap: 214px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header__logo {
+	width: 101px;
+	height: 30px;
+}
+
+.header__nav {
+	padding: 0 0 0 20px;
+	font-weight: 300;
+}
+
+.header__nav-list {
+	display: flex;
+	gap: 64px;
+	list-style: none;
+	align-items: center;
+}
+
+.header__nav-item {
+	color: rgba(255, 255, 255, 0.8);
+	transition: color 0.3s ease-in-out;
+}
+
+.header__nav-item:hover {
+	color: rgba(255, 255, 255);
+	cursor: pointer;
+}
+
+.header__nav-item-arrow {
+	width: 6px;
+	height: 5px;
+	padding: 0 0 0 7px;
+}
+
+.header__button {
+	all: unset;
+	position: relative;
+	display: block;
+	background: transparent;
+	color: #fff;
+	height: 52px;
+	width: 126px;
+	border: 1px solid;
+	border-image: linear-gradient(to right, #0cbaf1, #e95ce9) 1;
+	text-align: center;
+	overflow: hidden;
+}
+
+.header__button::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background: linear-gradient(to right, #0cbaf1, #e95ce9);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.header__button:hover::before {
+	opacity: 1;
+}
+
+.header__button:hover {
+	cursor: pointer;
+}
