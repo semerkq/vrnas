@@ -2,16 +2,20 @@ body {
 	font-family: "Chakra Petch", sans-serif;
 	background-color: #18181b;
 	margin: 0;
-}
-
-.container {
-	width: 100%;
-	padding: 0 119px;
-	display: flex;
+	position: relative;
 }
 
 ul,
-li {
+li, h1, p {
 	padding: 0;
 	margin: 0;
+}
+
+.bg-lines {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 736px;
+	height: 353px;
+	z-index: -1;
 }
