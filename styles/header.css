@@ -35,12 +35,12 @@
 }
 
 .header__nav-item {
-	color: rgba(255, 255, 255, 0.8);
+	color: var(--light-white-text-color);
 	transition: color 0.3s ease-in-out;
 }
 
 .header__nav-item:hover {
-	color: rgba(255, 255, 255);
+	color: var(--white-text-color);
 	cursor: pointer;
 }
 
@@ -55,7 +55,7 @@
 	position: relative;
 	display: block;
 	background: transparent;
-	color: #fff;
+	color: var(--white-text-color);
 	height: 52px;
 	width: 126px;
 	border: 1px solid;

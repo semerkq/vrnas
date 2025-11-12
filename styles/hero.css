@@ -34,7 +34,7 @@
 }
 
 .hero__title {
-    color: #fff;
+    color: var(--white-text-color);
     font-size: 64px;
     font-weight: 600;
     animation: animationOfEmergence 0.6s ease-in-out forwards;
@@ -42,7 +42,7 @@
 }
 
 .hero__description {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--light-white-text-color);
     font-size: 15px;
     line-height: 28px;
     animation: animationOfEmergence 0.6s ease-in-out 0.5s forwards;
@@ -57,7 +57,7 @@
     height: 50px;
     background: linear-gradient(to right, #0cbaf1, #e95ce9);
     text-align: center;
-    color: #fff;
+    color: var(--white-text-color);
     font-weight: 700;
     margin: 20px 0 0 0;
     cursor: pointer;
@@ -126,11 +126,13 @@
 
 
 .hero__count-of-clients {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--light-white-text-color);
+    width: 60%;
+    padding: 0 0 0 5px;
 }
 
 .hero__count-of-clients-number {
-    color: #fff;
+    color: var(--white-text-color);
     position: relative;
 }
 
@@ -146,21 +148,12 @@
     position: relative;
     height: 127px;
     width: 196px;
-    background-color: #252532;
+    background-color: var(--black-bg-color);
     text-align: center;
     overflow: hidden;
     cursor: pointer;
     opacity: 0;
     animation: videoAnimation 0.6s ease-in-out 0.5s  forwards;
-}
-
-@keyframes videoAnimation {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 .hero__video-cover {
@@ -193,13 +186,13 @@
     position: relative;
     width: 526px;
     height: 626px;
-    padding: 0 10px 0 0
+
 }
 
 .hero__main-image {
     width: 526px;
     height: 626px;
-    margin: 30px 14vw 0 0;
+    margin: 30px 0 0 0;
     animation: mainImageAnimation 0.6s ease-in-out;
 }
 
@@ -216,28 +209,4 @@
     z-index: -1;
     transform: scaleX(-1);
     animation: mainImageAnimation 0.6s ease-in-out;
-}
-
-@keyframes mainImageAnimation {
-    from {
-        opacity: 0.3;
-        translate: 20%;
-    }
-
-    to {
-        opacity: 1;
-        translate: 0;
-    }
-}
-
-@keyframes animationOfEmergence {
-    from {
-        opacity: 0;
-        translate: 0 60%;
-    }
-
-    to {
-        opacity: 1;
-        translate: 0 0 ;
-    }
 }

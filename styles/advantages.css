@@ -1,8 +1,12 @@
 .advantages__container {
     display: flex;
-    background-color: #252532;
-    align-items: center;
+    background-color: var(--black-bg-color);
+    align-items: start;
+    justify-content: space-around;
     max-width: 1200px;
-	margin: 0 auto;
+	margin: 31px auto;
     width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 357px;
+    animation: animationOfEmergence 0.7s ease-in-out forwards;
 }
