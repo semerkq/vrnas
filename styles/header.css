@@ -5,6 +5,8 @@
 	align-items: center;
 	width: 100%;
 	font-size: 16px;
+	position: fixed;
+	z-index: 999;
 }
 
 .header__container {
@@ -59,7 +61,7 @@
 	height: 52px;
 	width: 126px;
 	border: 1px solid;
-	border-image: linear-gradient(to right, #0cbaf1, #e95ce9) 1;
+	border-image: var(--gradient) 1;
 	text-align: center;
 	overflow: hidden;
 }
@@ -70,7 +72,7 @@
 	top: 0;
 	left: 0;
 	opacity: 0;
-	background: linear-gradient(to right, #0cbaf1, #e95ce9);
+	background: var(--gradient);
 	width: 100%;
 	height: 100%;
 	z-index: -1;

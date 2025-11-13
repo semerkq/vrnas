@@ -1,148 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="index.css" />
-    <title>VRNAS</title>
-  </head>
 
-  <body>
-    <svg class="bg-lines">
-      <use href="./assets/sprites.svg#bg-lines"></use>
-    </svg>
-    <header class="header" aria-label="header">
-      <div class="header__container">
-        <svg class="header__logo" aria-label="header logo">
-          <use href="./assets/sprites.svg#header-logo"></use>
-        </svg>
-        <div class="header__nav" aria-label="menu">
-          <ul class="header__nav-list">
-            <li class="header__nav-item">Home</li>
-            <li class="header__nav-item">About us</li>
-            <li class="header__nav-item">Service</li>
-            <li class="header__nav-item">
-              Page
-              <svg class="header__nav-item-arrow">
-                <use href="./assets/sprites.svg#arrow"></use>
-              </svg>
-            </li>
-            <li class="header__nav-item">
-              Blog
-              <svg class="header__nav-item-arrow">
-                <use href="./assets/sprites.svg#arrow"></use>
-              </svg>
-            </li>
-          </ul>
-        </div>
-        <button type="button" class="header__button">Contact us</button>
-      </div>
-    </header>
-    <section class="hero" aria-label="hero section">
-      <svg class="hero__bg-lines">
-        <use href="./assets/sprites.svg#bg-netting"></use>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+  <title>VRNAS</title>
+</head>
+
+<body>
+  <svg class="bg-lines">
+    <use href="./assets/sprites.svg#bg-lines"></use>
+  </svg>
+  <header class="header" aria-label="header">
+    <div class="header__container">
+      <svg class="header__logo" aria-label="header logo">
+        <use href="./assets/sprites.svg#header-logo"></use>
       </svg>
-      <div class="hero__container">
-        <div class="hero__wrapper">
-          <div class="hero__title-wrapper">
-            <h1 class="hero__title">Immerse Yourself in Virtual Reality</h1>
-            <p class="hero__description" aria-label="hero description">
-              Experience Unforgettable Events in VR. Bring your events to life
-              like never before with our VR services
-            </p>
-            <button type="button" class="hero__button">DISCOVER MORE</button>
-          </div>
-          <div class="hero__information-about-clients-wrapper">
-            <div class="hero__clients-container">
-              <div class="hero__clients-images-container">
-                <img
-                  class="hero__client-image"
-                  src="assets/images/first-client.png"
-                  alt="happy smiling man"
-                />
-                <img
-                  class="hero__client-image"
-                  src="assets/images/second-client.png"
-                  alt="happy smiling man"
-                />
-                <img
-                  class="hero__client-image"
-                  src="assets/images/third-client.png"
-                  alt="happy smiling man"
-                />
-              </div>
-              <p class="hero__count-of-clients" aria-label="count of happy clients">
-                <span class="hero__count-of-clients-number"
-                  >32k+
-                  <svg class="hero__count-of-clients-number-underline">
-                    <use href="./assets/sprites.svg#under-text-line"></use>
-                  </svg>
-                </span>
-                Happy Client
-              </p>
-            </div>
-            <div class="hero__video">
-              <svg class="hero__video-icon">
-                <use href="./assets/sprites.svg#play-icon"></use>
-              </svg>
-              <img
-                class="hero__video-cover"
-                src="./assets/images/video-cover.png"
-                alt="boy in the vr glasses"
-              />
-            </div>
-          </div>
+      <div class="header__nav" aria-label="menu">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">Home</li>
+          <li class="header__nav-item">About us</li>
+          <li class="header__nav-item">Service</li>
+          <li class="header__nav-item">
+            Page
+            <svg class="header__nav-item-arrow">
+              <use href="./assets/sprites.svg#arrow"></use>
+            </svg>
+          </li>
+          <li class="header__nav-item">
+            Blog
+            <svg class="header__nav-item-arrow">
+              <use href="./assets/sprites.svg#arrow"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="header__button">Contact us</button>
+    </div>
+  </header>
+  <section class="hero" aria-label="hero section">
+    <svg class="hero__bg-lines">
+      <use href="./assets/sprites.svg#bg-netting"></use>
+    </svg>
+    <div class="hero__container">
+      <div class="hero__wrapper">
+        <div class="hero__title-wrapper">
+          <h1 class="hero__title">Immerse Yourself in Virtual Reality</h1>
+          <p class="hero__description" aria-label="hero description">
+            Experience Unforgettable Events in VR. Bring your events to life
+            like never before with our VR services
+          </p>
+          <button type="button" class="button button--hero">DISCOVER MORE</button>
         </div>
-        <div class="hero__main-image-wrapper">
-          <img
-            class="hero__main-image"
-            src="assets/images/main-in-vr.png"
-            alt="man in vr glasses"
-          />
+        <div class="hero__information-about-clients-wrapper">
+          <div class="hero__clients-container">
+            <div class="hero__clients-images-container">
+              <img class="hero__client-image" src="assets/images/first-client.webp" alt="happy smiling man" />
+              <img class="hero__client-image" src="assets/images/second-client.webp" alt="happy smiling man" />
+              <img class="hero__client-image" src="assets/images/third-client.webp" alt="happy smiling man" />
+            </div>
+            <p class="hero__count-of-clients" aria-label="count of happy clients">
+              <span class="hero__count-of-clients-number">32k+
+                <svg class="hero__count-of-clients-number-underline">
+                  <use href="./assets/sprites.svg#under-text-line"></use>
+                </svg>
+              </span>
+              Happy Client
+            </p>
+          </div>
+          <div class="hero__video">
+            <svg class="hero__video-icon">
+              <use href="./assets/sprites.svg#play-icon"></use>
+            </svg>
+            <img class="hero__video-cover" src="./assets/images/video-cover.webp" alt="boy in the vr glasses" />
+          </div>
         </div>
       </div>
-    </section>
-    <section class="advantages" aria-label="advantages section">
-      <div class="advantages__container">
-        <div class="card card--left">
-          <svg class="card__icon" aria-label="card icon">
-            <use href="./assets/sprites.svg#first-card-icon"></use>
-          </svg>
-          <h2 class="card__title">Expertise</h2>
-          <p class="card__description" aria-label="card description">
-            Our team consists of experienced VR developers, designers, and
-            technicians who have a passion for VR and a commitment to delivering
-            quality work and give the best service
-          </p>
-        </div>
-        <div class="card">
-          <svg class="card__icon" aria-label="card icon">
-            <use href="./assets/sprites.svg#second-card-icon"></use>
-          </svg>
-          <h2 class="card__title">Customization</h2>
-          <p class="card__description" aria-label="card description">
-            Every client is unique, and we believe every VR experience should be
-            too. We'll work with you to create a customized solution that meets
-            your specific needs and goals
-          </p>
-        </div>
-        <div class="card card--right">
-          <svg class="card__icon" aria-label="card icon">
-            <use href="./assets/sprites.svg#third-card-icon"></use>
-          </svg>
-          <h2 class="card__title">Service</h2>
-          <p class="card__description" aria-label="card description">
-            We believe in providing exceptional customer service, from initial
-            consultation to final delivery. Our goal is to ensure you're
-            satisfied with every aspect of your VR experience.
-          </p>
-        </div>
-    </section>
-  </body>
+      <div class="hero__main-image-wrapper">
+        <img src="assets/images/main-in-vr.webp" alt="man in vr glasses"
+          fetchpriority="high" />
+      </div>
+    </div>
+  </section>
+  <section class="advantages" aria-label="advantages section">
+    <div class="advantages__container">
+      <div class="card card--left">
+        <svg class="card__icon" aria-label="card icon">
+          <use href="./assets/sprites.svg#first-card-icon"></use>
+        </svg>
+        <h3 class="card__title">Expertise</h3>
+        <p class="card__description" aria-label="card description">
+          Our team consists of experienced VR developers, designers, and
+          technicians who have a passion for VR and a commitment to delivering
+          quality work and give the best service
+        </p>
+      </div>
+      <div class="card">
+        <svg class="card__icon" aria-label="card icon">
+          <use href="./assets/sprites.svg#second-card-icon"></use>
+        </svg>
+        <h3 class="card__title">Customization</h3>
+        <p class="card__description" aria-label="card description">
+          Every client is unique, and we believe every VR experience should be
+          too. We'll work with you to create a customized solution that meets
+          your specific needs and goals
+        </p>
+      </div>
+      <div class="card card--right">
+        <svg class="card__icon" aria-label="card icon">
+          <use href="./assets/sprites.svg#third-card-icon"></use>
+        </svg>
+        <h3 class="card__title">Service</h3>
+        <p class="card__description" aria-label="card description">
+          We believe in providing exceptional customer service, from initial
+          consultation to final delivery. Our goal is to ensure you're
+          satisfied with every aspect of your VR experience.
+        </p>
+      </div>
+  </section>
+  <section class="about-us">
+    <div class="about-us__container">
+      <div class="about-us__main-image-wrapper">
+        <img class="about-us__main-image" src="./assets/images/about-us-main-image.webp" alt="man in modern glasses">
+        <div class="about-us__video">
+            <svg class="about-us__video-icon">
+              <use href="./assets/sprites.svg#play-icon"></use>
+            </svg>
+            <img class="about-us__video-cover" src="./assets/images/about-us-video-cover.webp" alt="boy in the vr glasses" />
+          </div>
+      </div>
+      <div class="about-us__information-wrapper">
+        <h3 class="about-us__section-name">ABOUT US</h3>
+        <h2 class="about-us__title">Bring your events to life like never before with our VR services.</h2>
+        <p class="about-us__description">VRNas is a leading provider of VR services for education, entertainment,
+          architecture, and events. Our mission is to bring the power of virtual reality to everyone, allowing them to
+          explore new worlds, learn in new ways, and experience events in a whole new light.</p>
+        <ul class="about-us__list">
+          <li class="about-us__list-item">Cutting-Edge Technology</li>
+          <li class="about-us__list-item">Versatile Applications</li>
+          <li class="about-us__list-item">Affordable and Accessible</li>
+        </ul>
+        <button type="button" class="button button--about-us">READ MORE</button>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>

@@ -2,6 +2,7 @@
 	--light-white-text-color: rgba(255, 255, 255, 0.6);
 	--white-text-color: #fff;
 	--black-bg-color: #252532;
+	--gradient: linear-gradient(to right, #0cbaf1, #e95ce9);
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 ul,
-li, h1, p {
+li, h1, p, h2, h3 {
 	padding: 0;
 	margin: 0;
 }
