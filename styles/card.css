@@ -1,23 +1,8 @@
 .card {
     display: flex;
     flex-direction: column;
-    padding: 42px 0;
-    max-width: 325px;
-    max-height: 262px;
     gap: 12px;
-}
-
-.card--left {
-    padding-left: 64px;
-}
-
-.card--right {
-    padding-right: 64px;
-}
-
-.card__icon {
-    width: 70px;
-    height: 70px;
+    background-color: var(--black-bg-color);
 }
 
 .card__title {

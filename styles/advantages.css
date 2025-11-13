@@ -6,7 +6,28 @@
     max-width: 1200px;
 	margin: 31px auto;
     width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid;
+    border-image: var(--card-border-color) 1;
     height: 357px;
     animation: animationOfEmergence 0.7s ease-in-out forwards;
+}
+
+.advantages__container .card {
+    max-width: 325px;
+    max-height: 262px;
+    padding: 42px 0;
+}
+
+.advantages__container .card:first-child {
+    padding-left: 64px;
+}
+
+.advantages__container .card:last-child {
+    padding-right: 64px;
+}
+
+
+.advantages__container .card__icon {
+    width: 70px;
+    height: 70px;
 }

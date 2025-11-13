@@ -3,6 +3,7 @@
 	--white-text-color: #fff;
 	--black-bg-color: #252532;
 	--gradient: linear-gradient(to right, #0cbaf1, #e95ce9);
+	--card-border-color: linear-gradient(to right, rgba(128, 129, 133, 0.452), #252532);
 }
 
 body {

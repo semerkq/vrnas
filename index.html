@@ -41,7 +41,7 @@
           </li>
         </ul>
       </div>
-      <button type="button" class="header__button">Contact us</button>
+      <button type="button" class="button-second-type">Contact us</button>
     </div>
   </header>
   <section class="hero" aria-label="hero section">
@@ -83,14 +83,13 @@
         </div>
       </div>
       <div class="hero__main-image-wrapper">
-        <img src="assets/images/main-in-vr.webp" alt="man in vr glasses"
-          fetchpriority="high" />
+        <img src="assets/images/main-in-vr.webp" alt="man in vr glasses" fetchpriority="high" />
       </div>
     </div>
   </section>
   <section class="advantages" aria-label="advantages section">
     <div class="advantages__container">
-      <div class="card card--left">
+      <div class="card" aria-label="card">
         <svg class="card__icon" aria-label="card icon">
           <use href="./assets/sprites.svg#first-card-icon"></use>
         </svg>
@@ -101,7 +100,7 @@
           quality work and give the best service
         </p>
       </div>
-      <div class="card">
+      <div class="card" aria-label="card">
         <svg class="card__icon" aria-label="card icon">
           <use href="./assets/sprites.svg#second-card-icon"></use>
         </svg>
@@ -112,7 +111,7 @@
           your specific needs and goals
         </p>
       </div>
-      <div class="card card--right">
+      <div class="card" aria-label="card">
         <svg class="card__icon" aria-label="card icon">
           <use href="./assets/sprites.svg#third-card-icon"></use>
         </svg>
@@ -129,16 +128,18 @@
       <div class="about-us__main-image-wrapper">
         <img class="about-us__main-image" src="./assets/images/about-us-main-image.webp" alt="man in modern glasses">
         <div class="about-us__video">
-            <svg class="about-us__video-icon" aria-label="play icon">
-              <use href="./assets/sprites.svg#play-icon"></use>
-            </svg>
-            <img class="about-us__video-cover" src="./assets/images/about-us-video-cover.webp" alt="boy in the vr glasses" />
-          </div>
+          <svg class="about-us__video-icon" aria-label="play icon">
+            <use href="./assets/sprites.svg#play-icon"></use>
+          </svg>
+          <img class="about-us__video-cover" src="./assets/images/about-us-video-cover.webp"
+            alt="boy in the vr glasses" />
+        </div>
       </div>
       <div class="about-us__information-wrapper">
         <h3 class="about-us__section-name">ABOUT US</h3>
         <h2 class="about-us__title">Bring your events to life like never before with our VR services.</h2>
-        <p class="about-us__description" aria-label="about us description">VRNas is a leading provider of VR services for education, entertainment,
+        <p class="about-us__description" aria-label="about us description">VRNas is a leading provider of VR services
+          for education, entertainment,
           architecture, and events. Our mission is to bring the power of virtual reality to everyone, allowing them to
           explore new worlds, learn in new ways, and experience events in a whole new light.</p>
         <ul class="about-us__list" aria-label="benefits">
@@ -151,7 +152,89 @@
     </div>
   </section>
 
-  <section class="our-service"></section>
+  <section class="our-service" aria-label="our service section">
+    <div class="our-service__container">
+      <div class="our-service__information-wrapper">
+        <div class="our-service__title-and-sedcription-wrapper">
+          <h3 class="our-service__section-name">OUR SERVICE</h3>
+          <h2 class="our-service__title">Our Service</h2>
+        </div>
+        <p class="our-service__description" aria-label="our service description">We use the latest VR hardware and
+          software to create high-quality VR
+          experiences that are accessible and affordable. Our goal is to provide exceptional customer service and
+          support, and our team is always available to answer any questions and address any concerns you may have.</p>
+      </div>
+      <div class="our-service__cards-wrapper">
+        <div class="our-service__column-wrapper">
+          <div class="card" aria-label="card">
+            <svg class="card__icon" aria-label="card icon">
+              <use href="./assets/sprites.svg#first-card-icon-our-service"></use>
+            </svg>
+            <h3 class="card__title">VR Development</h3>
+            <p class="card__description" aria-label="card description">
+              From concept to creation, our team of VR developers will bring your vision to life.
+            </p>
+            <button type="button" class="button-second-type">LEARN MORE</button>
+          </div>
+          <div class="card" aria-label="card">
+            <svg class="card__icon" aria-label="card icon">
+              <use href="./assets/sprites.svg#fourth-card-icon-our-service"></use>
+            </svg>
+            <h3 class="card__title">VR Games</h3>
+            <p class="card__description" aria-label="card description">
+              We offer a wide selection of VR games that are suitable for players of all ages and skill levels.
+            </p>
+            <button type="button" class="button-second-type">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="our-service__column-wrapper">
+          <div class="card" aria-label="card">
+            <svg class="card__icon" aria-label="card icon">
+              <use href="./assets/sprites.svg#second-card-icon-our-service"></use>
+            </svg>
+            <h3 class="card__title">VR Design</h3>
+            <p class="card__description" aria-label="card description">
+              Our talented VR designers will create immersive and engaging environments that will captivate your audience.
+            </p>
+            <button type="button" class="button-second-type">LEARN MORE</button>
+          </div>
+          <div class="card" aria-label="card">
+            <svg class="card__icon" aria-label="card icon">
+              <use href="./assets/sprites.svg#fifth-card-icon-our-service"></use>
+            </svg>
+            <h3 class="card__title">VR Events</h3>
+            <p class="card__description" aria-label="card description">
+              Make your next event unforgettable with our VR event services.
+            </p>
+            <button type="button" class="button-second-type">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="our-service__column-wrapper">
+          <div class="card" aria-label="card">
+            <svg class="card__icon" aria-label="card icon">
+              <use href="./assets/sprites.svg#third-card-icon-our-service"></use>
+            </svg>
+            <h3 class="card__title">VR Consulting</h3>
+            <p class="card__description" aria-label="card description">
+              Our VR consultants will work with you to ensure that your VR experience meets your goals and exceeds your expectations.
+            </p>
+            <button type="button" class="button-second-type">LEARN MORE</button>
+          </div>
+          <div class="card" aria-label="card">
+            <svg class="card__icon" aria-label="card icon">
+              <use href="./assets/sprites.svg#sixth-card-icon-our-service"></use>
+            </svg>
+            <h3 class="card__title">VR Entertainment</h3>
+            <p class="card__description" aria-label="card description">
+              Create a VR escape room, or offer VR experiences at a theme park, we have the expertise and experience to
+              make it happen.
+            </p>
+            <button type="button" class="button-second-type">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
