@@ -173,7 +173,7 @@
 .hero__main-image-wrapper::before {
     content: "";
     position: absolute;
-    width: 567px;
+    width: 540px;
     height: 340px;
     background: linear-gradient(to right, #0cbcf1a2, #e95ce9b4);
     filter: blur(100px);
