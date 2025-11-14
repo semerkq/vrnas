@@ -777,4 +777,12 @@
       d="M2.19995 2.86327C2.19995 1.61155 3.57248 0.844595 4.63851 1.50061L12.9856 6.63731C14.0009 7.26209 14.0009 8.73784 12.9856 9.36262L4.63851 14.4993C3.57247 15.1553 2.19995 14.3884 2.19995 13.1367V2.86327Z"
       fill="white" />
   </symbol>
+
+  <symbol width="1247" height="1247" viewBox="0 0 1247 1247" id="bg-rounds">
+    <circle cx="623.888" cy="622.888" r="281.815" stroke="white" stroke-opacity="0.17" fill="none"/>
+    <circle cx="625.112" cy="622.888" r="367.551" stroke="white" stroke-opacity="0.17" fill="none"/>
+    <circle cx="624.5" cy="623.5" r="449" stroke="white" stroke-opacity="0.17" fill="none"/>
+    <circle cx="624" cy="624" r="541.5" stroke="white" stroke-opacity="0.17" fill="none"/>
+    <circle cx="623.5" cy="623.5" r="623" stroke="white" stroke-opacity="0.17" fill="none"/>
+  </symbol>
 </svg>
