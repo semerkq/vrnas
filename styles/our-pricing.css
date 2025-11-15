@@ -1,0 +1,195 @@
+.our-pricing {
+    margin: 100px 0 0 0;
+}
+.our-pricing_container {
+    display: flex;
+    flex-direction: column;
+	gap: 12px;
+    max-width: 1200px;
+	margin: 0 auto;
+    width: 100%;
+}
+
+.our-pricing__section-name {
+    width: 120px;
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 14%;
+    opacity: 0;
+    animation: videoAnimation 0.9s ease-in-out 0.5s forwards;
+}
+
+.our-pricing__title {
+    color: var(--white-text-color);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    opacity: 0;
+    animation: animationOfEmergence 0.6s ease-in-out 0.3s forwards;
+}
+
+.our-pricing__description {
+    color: var(--light-white-text-color);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    opacity: 0;
+    animation: animationOfEmergence 0.6s ease-in-out 0.5s forwards;
+    max-width: 625px;
+    padding: 4px 0 0 0;
+}
+
+.our-pricing__pricing {
+    position: relative;
+    margin: 28px 0 0 0;
+    display: flex;
+    background-color: var(--black-bg-color);
+    gap: 158px;
+    justify-content: end;
+    max-height: 587px;
+    border: 1px solid;
+    border-image: var(--card-border-color) 1;
+    opacity: 0;
+    animation: animationOfEmergence 0.6s ease-in-out 0.5s forwards;
+}
+
+.our-pricing__pricing::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #0cbcf181, #e95ce9a8);
+    width: 300px;
+    height: 800px;
+    top: 0;
+    filter: blur(200px);
+    right: 70px;
+    z-index: 997;
+    border-radius: 15px;
+    rotate: 70deg;
+    
+}
+
+.our-pricing__pricing::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #0cbaf1, #e95ce9);
+    width: 300px;
+    height: 600px;
+    top: 0;
+    filter: blur(150px);
+    right: 70px;
+    z-index: -1;
+    border-radius: 15px;
+    rotate: 70deg;
+    
+}
+
+.our-pricing__pricing__cards-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 55px 0 55px 42px;
+    z-index: 999;
+}
+
+.our-pricing__pricing__cards-wrapper::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 255, 255, 0.068);
+    right: -15%;
+    height: 100%;
+    width: 1px;
+
+}
+
+.our-pricing__pricing-benefits-card {
+    display: flex;
+    gap: 16px;
+    max-width: 640px;
+}
+
+.our-pricing__pricing-benefits-card-icon {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+}
+
+.our-pricing__pricing-benefits-card-information {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.our-pricing__pricing-benefits-card-title {
+    color: var(--white-text-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.our-pricing__pricing-benefits-card-description {
+    color: var(--light-white-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.our-pricing__pricing-image {
+    max-width: 330px;
+    height: 100%;
+    align-self: flex-end;
+    z-index: 999;
+}
+
+.our-pricing__price-card {
+    position: absolute;
+    width: 321px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--black-bg-color);
+    border: 1px solid;
+	border-image: var(--gradient) 1;
+    right: 10%;
+    top: 100%;
+    translate: 0 -50%;
+    z-index: 999;
+}
+
+.our-pricing__price-card-top-text {
+    font-size: 14px;
+    color: var(--light-white-text-color);
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.our-pricing__price-card-price {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 66px;
+    color: var(--white-text-color);
+}
+
+.button--card-price {
+    width: 182px;
+    height: 50px;
+    animation: none;
+    opacity: 1;
+    margin-top: 2px;
+}
+
+.our-pricing__price-card-bottom-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--light-white-text-color);
+    line-height: 20px;
+    margin-top: 2px;
+}

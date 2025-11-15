@@ -50,7 +50,6 @@
 }
 .our-service__cards-wrapper {
     display: flex;
-    flex-wrap: wrap;
     gap: 30px;
     max-height: 747px;
 }
@@ -61,12 +60,21 @@
     gap: 30px;
 }
 
+.our-service__column-wrapper:nth-child(1) {
+    opacity: 0;
+    animation: animationOfEmergence 0.8s ease-in-out 0.3s forwards;
+}
+
 .our-service__column-wrapper:nth-child(2) {
     margin: 57px 0 0 0; 
+    opacity: 0;
+    animation: animationOfEmergence 0.8s ease-in-out 0.5s forwards;
 }
 
 .our-service__column-wrapper:nth-child(3) {
     margin: 114px 0 0 0; 
+    opacity: 0;
+    animation: animationOfEmergence 0.8s ease-in-out 0.7s forwards;
 }
 
 .our-service__cards-wrapper .card {
