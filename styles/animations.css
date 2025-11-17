@@ -1,56 +1,76 @@
 @keyframes mainImageAnimation {
-    from {
-        opacity: 0.3;
-        translate: 20%;
-    }
+	from {
+		opacity: 0.3;
+		translate: 20%;
+	}
 
-    to {
-        opacity: 1;
-        translate: 0;
-    }
+	to {
+		opacity: 1;
+		translate: 0;
+	}
 }
 
 @keyframes mainImageAnimationFromLeft {
-    from {
-        opacity: 0.3;
-        translate: -20%;
-    }
+	from {
+		opacity: 0.3;
+		translate: -20%;
+	}
 
-    to {
-        opacity: 1;
-        translate: 0;
-    }
+	to {
+		opacity: 1;
+		translate: 0;
+	}
 }
 
 @keyframes animationOfEmergence {
-    from {
-        opacity: 0;
-        translate: 0 60%;
-    }
+	from {
+		opacity: 0;
+		translate: 0 60%;
+	}
 
-    to {
-        opacity: 1;
-        translate: 0 0;
-    }
+	to {
+		opacity: 1;
+		translate: 0 0;
+	}
 }
 
 @keyframes videoAnimation {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 @keyframes cardButtonAnimation {
-    from {
-        opacity: 0;
-        translate: -50% 30%;
-    }
+	from {
+		opacity: 0;
+		translate: -50% 30%;
+	}
 
-    to {
-        opacity: 1;
-        translate: -50% 0;
-    }
+	to {
+		opacity: 1;
+		translate: -50% 0;
+	}
+}
+
+@keyframes bigAndSmallAnimation {
+	0%,
+	100% {
+		scale: 1;
+		animation-timing-function: ease-out;
+	}
+	25% {
+		scale: 1.1;
+		animation-timing-function: ease-in;
+	}
+	50% {
+		scale: 1.15;
+		animation-timing-function: ease-in;
+	}
+	75% {
+		scale: 1.2;
+		animation-timing-function: ease-in;
+	}
 }
