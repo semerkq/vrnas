@@ -1,33 +1,48 @@
 .advantages__container {
-    display: flex;
-    background-color: var(--black-bg-color);
-    align-items: start;
-    justify-content: space-around;
-    max-width: 1200px;
+	display: flex;
+	background-color: var(--black-bg-color);
+	align-items: start;
+	justify-content: space-around;
+	max-width: 1200px;
 	margin: 31px auto;
-    width: 100%;
-    border: 1px solid;
-    border-image: var(--card-border-color) 1;
-    height: 357px;
-    animation: animationOfEmergence 0.7s ease-in-out forwards;
+	width: 100%;
+	border: 1px solid;
+	border-image: var(--card-border-color) 1;
+	height: 357px;
+	animation: animationOfEmergence 0.7s ease-in-out forwards;
 }
 
 .advantages__container .card {
-    max-width: 325px;
-    max-height: 262px;
-    padding: 42px 0;
+	max-width: 325px;
+	max-height: 262px;
+	padding: 42px 0;
 }
 
 .advantages__container .card:first-child {
-    padding-left: 64px;
+	padding-left: 64px;
 }
 
 .advantages__container .card:last-child {
-    padding-right: 64px;
+	padding-right: 64px;
 }
 
-
 .advantages__container .card__icon {
-    width: 70px;
-    height: 70px;
+	width: 70px;
+	height: 70px;
+}
+
+@media (max-width: 1260px) {
+	.advantages__container {
+		max-width: 1000px;
+		margin: 31px auto;
+		height: 357px;
+	}
+
+	.advantages__container .card:first-child {
+		padding-left: 34px;
+	}
+
+	.advantages__container .card:last-child {
+		padding-right: 34px;
+	}
 }

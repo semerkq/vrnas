@@ -15,6 +15,7 @@
 	display: flex;
 	gap: 217px;
 	align-items: center;
+	justify-content: space-between;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -69,4 +70,11 @@
 .header .button-second-type {
 	height: 52px;
 	width: 126px;
+}
+
+@media (max-width: 1260px) {
+	.header__container {
+		max-width: 1000px;
+		gap: 150px;
+	}
 }

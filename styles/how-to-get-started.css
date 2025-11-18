@@ -10,6 +10,7 @@
 	align-items: center;
 	margin: 0 auto;
 	width: 100%;
+	padding: 0 20px;
 }
 
 .how-to-get-started__information-wrapper {
@@ -180,4 +181,19 @@
 	width: 182px;
 	height: 50px;
 	z-index: 999;
+}
+
+@media (max-width: 1300px) {
+	.how-to-get-started__container {
+		max-width: 1000px;
+	}
+
+	.how-to-get-started__information-wrapper {
+		gap: 10px;
+	}
+
+	.how-to-get-started__title {
+		font-size: 32px;
+		line-height: 105%;
+	}
 }

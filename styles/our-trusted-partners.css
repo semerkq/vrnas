@@ -17,10 +17,10 @@
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
-	width: 1200px;
+	max-width: 1200px;
 	align-items: center;
 	margin: 0 auto;
-	width: 100%;
+	padding: 0 20px;
 }
 
 .our-trusted-partners__section-name {
@@ -140,4 +140,10 @@
 	) {
 	opacity: 0;
 	animation: secondTypeOfEmergence 0.7s ease-in-out forwards;
+}
+
+@media (max-width: 1300px) {
+	.our-trusted-partners__title {
+		font-size: 38px;
+	}
 }

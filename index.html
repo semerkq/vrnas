@@ -2,7 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -14,9 +17,6 @@
 	</head>
 
 	<body>
-		<svg class="bg-lines">
-			<use href="./assets/sprites.svg#bg-lines"></use>
-		</svg>
 		<header class="header" aria-label="header">
 			<div class="header__container">
 				<svg class="header__logo" aria-label="header logo">
@@ -494,7 +494,7 @@
 		</section>
 
 		<section class="our-pricing" aria-label="our pricing section">
-			<div class="our-pricing_container">
+			<div class="our-pricing__container">
 				<h3 class="our-pricing__section-name">OUR PRICING</h3>
 				<h2 class="our-pricing__title">Affordable VR Services for Everyone</h2>
 				<p class="our-pricing__description" aria-label="section description">
@@ -660,22 +660,73 @@
 				</div>
 			</div>
 		</section>
-		<footer class="footer">
+		<footer class="footer" aria-label="footer">
+			<img src="assets/images/footer-lines.png" class="footer__bg-lines" />
 			<div class="footer__container">
 				<div class="footer__icons-wrapper">
-					<svg class="header__logo" aria-label="header logo">
+					<svg class="footer__logo" aria-label="footer logo">
 						<use href="./assets/sprites.svg#header-logo"></use>
 					</svg>
 					<div class="footer__social-media-wrapper">
-						<svg class="header__logo" aria-label="header logo">
+						<svg class="footer__social-media-logo" aria-label="twitter logo">
 							<use href="./assets/sprites.svg#twitter-icon"></use>
 						</svg>
-						<svg class="header__logo" aria-label="header logo">
-							<use href="./assets/sprites.svg#facebook-id"></use>
+						<svg class="footer__social-media-logo" aria-label="facebook logo">
+							<use href="./assets/sprites.svg#facebook-icon"></use>
 						</svg>
+						<svg class="footer__social-media-logo" aria-label="instagram logo">
+							<use href="./assets/sprites.svg#instagram-icon"></use>
+						</svg>
+						<svg class="footer__social-media-logo" aria-label="github logo">
+							<use href="./assets/sprites.svg#github-icon"></use>
+						</svg>
+					</div>
+				</div>
+				<div class="footer__links-wrapper">
+					<div class="footer__quicklinks-wrapper">
+						<h6 class="footer__quicklinks-title">Quicklinks</h6>
+						<ul class="footer__quicklinks-list">
+							<li>Home</li>
+							<li>Pricing Plan</li>
+							<li>Service</li>
+							<li>Our Team</li>
+						</ul>
+					</div>
+					<div class="footer__support-wrapper">
+						<h6 class="footer__support-title">Support</h6>
+						<ul class="footer__support-list">
+							<li>About us</li>
+							<li>Contact us</li>
+							<li>FAQ</li>
+							<li>Tems & Conditions</li>
+						</ul>
+					</div>
+					<div class="footer__help-wrapper">
+						<h6 class="footer__help-title">Need Help?</h6>
+						<ul class="footer__help-list">
+							<li>
+								<svg class="footer__help-icon">
+									<use href="assets/sprites.svg#location-icon"></use>
+								</svg>
+								Tanjung Sari Street no.48, Pontianak City
+							</li>
+							<li>
+								<svg class="footer__help-icon">
+									<use href="assets/sprites.svg#message-icon"></use>
+								</svg>
+								Support@VRNas.com
+							</li>
+							<li>
+								<svg class="footer__help-icon">
+									<use href="assets/sprites.svg#phone-icon"></use>
+								</svg>
+								+123 456 7890
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</footer>
+		<img src="assets/images/bg-lines.png" class="bg-lines" />
 	</body>
 </html>

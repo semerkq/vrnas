@@ -1,6 +1,7 @@
 .what-our-clients-are-saying {
 	margin: 100px 0 0 0;
 	position: relative;
+	height: 1247px;
 }
 
 .bg-rounds {
@@ -21,7 +22,7 @@
 	align-items: center;
 	margin: 0 auto;
 	width: 100%;
-	padding: 111px 0 0 0;
+	padding: 111px 20px 0 20px;
 }
 
 .what-our-clients-are-saying__section-name {
@@ -49,8 +50,8 @@
 
 .what-our-clients-are-saying__main-image-wrapper {
 	position: relative;
-	width: 1164px;
-	height: 831px;
+	max-width: 1164px;
+	max-height: 831px;
 	padding: 51px 0 0 84px;
 }
 
@@ -134,13 +135,25 @@
 	animation: secondTypeOfEmergence 0.7s ease-in-out forwards;
 }
 
-@keyframes secondTypeOfEmergence {
-	from {
-		opacity: 0;
-		scale: 1.5;
+@media (max-width: 1260px) {
+	.what-our-clients-are-saying {
+		overflow-x: hidden;
 	}
-	to {
-		opacity: 1;
-		scale: 1;
+
+	.what-our-clients-are-saying__container {
+		max-width: 1000px;
+	}
+
+	.what-our-clients-are-saying__container {
+		gap: 10px;
+	}
+
+	.what-our-clients-are-saying__title {
+		font-size: 32px;
+		line-height: 105%;
+	}
+
+	.what-our-clients-are-saying__main-image-wrapper {
+		padding: 140px 0 0 80px;
 	}
 }
