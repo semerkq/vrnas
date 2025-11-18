@@ -209,12 +209,95 @@
 	}
 
 	.our-pricing__pricing-benefits-card-icon {
-		width: 32px;
-		height: 32px;
-		flex-shrink: 0;
+		scale: 0.8;
 	}
 
 	.our-pricing__pricing-benefits-card-description {
 		line-height: 110%;
+	}
+}
+
+@media (max-width: 1040px) {
+	.our-pricing {
+		margin: 15px 0 0 0;
+	}
+
+	.our-pricing__container {
+		max-width: 700px;
+		gap: 8px;
+	}
+
+	.our-pricing__section-name {
+		font-size: 12px;
+	}
+
+	.our-pricing__title {
+		font-size: 24px;
+	}
+
+	.our-pricing__description {
+		font-size: 14px;
+		line-height: 105%;
+	}
+
+	.our-pricing__pricing {
+		gap: 10px;
+	}
+
+	.our-pricing__pricing__cards-wrapper {
+		gap: 20px;
+		margin: 25px 0 25px 22px;
+		z-index: 999;
+	}
+
+	.our-pricing__pricing__cards-wrapper::after {
+		right: -2%;
+	}
+
+	.our-pricing__pricing-benefits-card {
+		gap: 5px;
+	}
+
+	.our-pricing__pricing-benefits-card-icon {
+		scale: 0.7;
+		translate: 0 -10%;
+	}
+
+	.our-pricing__pricing-benefits-card-description {
+		font-size: 12px;
+	}
+
+	.our-pricing__pricing-image {
+		max-width: 210px;
+	}
+
+	.our-pricing__price-card {
+		width: 200px;
+		height: 160px;
+		gap: 8px;
+		right: 2%;
+		top: 100%;
+		translate: 0 -50%;
+	}
+
+	.our-pricing__price-card-top-text {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.our-pricing__price-card-price {
+		font-size: 30px;
+		line-height: 100%;
+	}
+
+	.button--card-price {
+		width: 140px;
+		height: 40px;
+		font-size: 12px;
+	}
+
+	.our-pricing__price-card-bottom-text {
+		font-size: 10px;
+		line-height: 15px;
 	}
 }

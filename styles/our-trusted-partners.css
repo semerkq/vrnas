@@ -142,8 +142,50 @@
 	animation: secondTypeOfEmergence 0.7s ease-in-out forwards;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1260px) {
+	.our-trusted-partners {
+		overflow: hidden;
+	}
+
+	.our-trusted-partners__container {
+		max-width: 1000px;
+		gap: 10px;
+	}
+
 	.our-trusted-partners__title {
-		font-size: 38px;
+		font-size: 32px;
+		line-height: 105%;
+	}
+
+	.our-trusted-partners__main-image-wrapper {
+		margin: 210px 0 0 35px;
+	}
+}
+
+@media (max-width: 1040px) {
+	.our-trusted-partners {
+		margin: 120px 0 0 0;
+	}
+
+	.bg-rounds2 {
+		scale: 0.8;
+		top: 7%;
+	}
+
+	.our-trusted-partners__container {
+		max-width: 700px;
+		gap: 8px;
+	}
+
+	.our-trusted-partners__section-name {
+		font-size: 12px;
+	}
+
+	.our-trusted-partners__title {
+		font-size: 28px;
+	}
+
+	.our-trusted-partners__main-image-wrapper {
+		margin: 210px 0 0 40px;
 	}
 }

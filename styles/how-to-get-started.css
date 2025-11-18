@@ -183,7 +183,7 @@
 	z-index: 999;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1260px) {
 	.how-to-get-started__container {
 		max-width: 1000px;
 	}
@@ -195,5 +195,76 @@
 	.how-to-get-started__title {
 		font-size: 32px;
 		line-height: 105%;
+	}
+
+	.how-to-get-started__video-timeline-container {
+		width: 94%;
+		left: 14px;
+	}
+}
+
+@media (max-width: 1040px) {
+	.how-to-get-started__container {
+		max-width: 700px;
+		gap: 40px;
+	}
+
+	.how-to-get-started__information-wrapper {
+		gap: 8px;
+	}
+
+	.how-to-get-started__section-name {
+		font-size: 14px;
+	}
+
+	.how-to-get-started__title {
+		font-size: 28px;
+	}
+
+	.how-to-get-started__video-container::before {
+		width: 100%;
+		height: 94%;
+		border-radius: 10px;
+	}
+
+	.how-to-get-started__video-tag {
+		width: 88px;
+		height: 20px;
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	.how-to-get-started__video-title {
+		font-size: 28px;
+		line-height: 105%;
+		letter-spacing: -2%;
+	}
+
+	.how-to-get-started__video-icon {
+		scale: 0.8;
+	}
+
+	.how-to-get-started__video-timeline-container {
+		position: absolute;
+		top: 85%;
+		width: 92%;
+	}
+
+	.how-to-get-started__icon-wrapper::after {
+		left: 3%;
+	}
+
+	.how-to-get-started__video-timeline-container::after {
+		left: 3%;
+	}
+
+	.how-to-get-started__icon-wrapper::before {
+		left: 3%;
+	}
+
+	.button--how-to-get-started {
+		width: 152px;
+		height: 40px;
+		font-size: 12px;
 	}
 }

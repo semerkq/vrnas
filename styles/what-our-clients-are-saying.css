@@ -140,6 +140,10 @@
 		overflow-x: hidden;
 	}
 
+	.bg-rounds {
+		scale: 0.9;
+	}
+
 	.what-our-clients-are-saying__container {
 		max-width: 1000px;
 	}
@@ -155,5 +159,45 @@
 
 	.what-our-clients-are-saying__main-image-wrapper {
 		padding: 140px 0 0 80px;
+	}
+}
+
+@media (max-width: 1040px) {
+	.what-our-clients-are-saying {
+		overflow-x: hidden;
+		margin: 0 0 0 0;
+	}
+
+	.bg-rounds {
+		top: -10px;
+	}
+
+	.what-our-clients-are-saying__container {
+		max-width: 800px;
+		padding: 90px 0 0 0;
+	}
+
+	.what-our-clients-are-saying__container {
+		gap: 8px;
+	}
+
+	.what-our-clients-are-saying__section-name {
+		font-size: 12px;
+	}
+
+	.what-our-clients-are-saying__title {
+		font-size: 28px;
+	}
+
+	.what-our-clients-are-saying__main-image-wrapper {
+		padding: 140px 0 0 80px;
+	}
+
+	.what-our-clients-are-saying__main-image-wrapper {
+		padding: 220px 0 0 65px;
+	}
+
+	.what-our-clients-are-saying__main-image-wrapper img {
+		scale: 1.1;
 	}
 }
