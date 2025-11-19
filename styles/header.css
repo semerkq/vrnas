@@ -88,19 +88,78 @@ input:checked ~ .header__nav-mobile-burger .header__nav-mobile-burger-icon {
 	z-index: 999;
 }
 
-.header__nav-mobile-burger svg {
+.header__nav-mobile-burger-icon,
+.header__nav-mobile-cross-icon {
+	position: relative;
 	width: 32px;
 	height: 32px;
-	scale: 1.2;
-	shape-rendering: crispEdges;
-	stroke-width: 1.5px;
+}
+
+.header__nav-mobile-burger-icon::before,
+.header__nav-mobile-cross-icon::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid transparent;
+	background: linear-gradient(90deg, #0cbaf1, #e95ce9);
+	-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	mask-composite: exclude;
+}
+
+.header__nav-mobile-burger-icon::after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	height: 1.3px;
+	background: white;
+}
+
+.header__nav-mobile-burger-icon .burger-line-middle {
+	position: absolute;
+	top: 15px;
+	left: 16px;
+	right: 10px;
+	height: 1px;
+	background: white;
+}
+
+.header__nav-mobile-burger-icon .burger-line-bottom {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 10px;
+	height: 1px;
+	background: white;
 }
 
 .header__nav-mobile-cross-icon {
 	display: none;
-	scale: 1.2;
-	shape-rendering: crispEdges;
-	stroke-width: 1.5px;
+}
+
+.header__nav-mobile-cross-icon::after {
+	content: "";
+	position: absolute;
+	top: 16px;
+	left: 11px;
+	width: 10px;
+	height: 1px;
+	background: white;
+	transform: rotate(45deg);
+}
+
+.header__nav-mobile-cross-icon .cross-line-2 {
+	position: absolute;
+	top: 16px;
+	left: 11px;
+	width: 10px;
+	height: 1px;
+	background: white;
+	transform: rotate(-45deg);
 }
 
 .header_nav-mobile-wrapper {

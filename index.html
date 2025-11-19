@@ -19,9 +19,11 @@
 	<body>
 		<header class="header" aria-label="header">
 			<div class="header__container">
-				<svg class="header__logo" aria-label="header logo">
-					<use href="./assets/sprites.svg#header-logo"></use>
-				</svg>
+				<img
+					src="assets/svgs/logo.svg"
+					class="header__logo"
+					alt="header logo"
+				/>
 				<div class="header__nav" aria-label="menu">
 					<ul class="header__nav-list">
 						<li class="header__nav-item">Home</li>
@@ -40,12 +42,13 @@
 			<div class="header__nav-mobile" aria-label="menu">
 				<input type="checkbox" id="menu-toggle" />
 				<label for="menu-toggle" class="header__nav-mobile-burger">
-					<svg class="header__nav-mobile-burger-icon">
-						<use href="assets/sprites.svg#burger-icon"></use>
-					</svg>
-					<svg class="header__nav-mobile-cross-icon">
-						<use href="assets/sprites.svg#cross-icon"></use>
-					</svg>
+					<div class="header__nav-mobile-burger-icon">
+						<div class="burger-line-middle"></div>
+						<div class="burger-line-bottom"></div>
+					</div>
+					<div class="header__nav-mobile-cross-icon">
+						<div class="cross-line-2"></div>
+					</div>
 				</label>
 				<div class="header_nav-mobile-wrapper">
 					<ul class="header__nav-mobile-list">
@@ -105,9 +108,10 @@
 							>
 								<span class="hero__count-of-clients-number"
 									>32k+
-									<svg class="hero__count-of-clients-number-underline">
-										<use href="./assets/sprites.svg#under-text-line"></use>
-									</svg>
+									<img
+										src="assets/svgs/underline-text.svg"
+										class="hero__count-of-clients-number-underline"
+									/>
 								</span>
 								Happy Client
 							</p>
@@ -137,9 +141,11 @@
 		<section class="advantages" aria-label="advantages section">
 			<div class="advantages__container">
 				<div class="card" aria-label="card">
-					<svg class="card__icon" aria-label="card icon">
-						<use href="./assets/sprites.svg#first-card-icon"></use>
-					</svg>
+					<img
+						src="assets/svgs/first-card-icon.svg"
+						class="card__icon"
+						alt="card icon"
+					/>
 					<h3 class="card__title">Expertise</h3>
 					<p class="card__description" aria-label="card description">
 						Our team consists of experienced VR developers, designers, and
@@ -148,9 +154,11 @@
 					</p>
 				</div>
 				<div class="card" aria-label="card">
-					<svg class="card__icon" aria-label="card icon">
-						<use href="./assets/sprites.svg#second-card-icon"></use>
-					</svg>
+					<img
+						src="assets/svgs/second-card-icon.svg"
+						class="card__icon"
+						alt="card icon"
+					/>
 					<h3 class="card__title">Customization</h3>
 					<p class="card__description" aria-label="card description">
 						Every client is unique, and we believe every VR experience should be
@@ -159,9 +167,11 @@
 					</p>
 				</div>
 				<div class="card" aria-label="card">
-					<svg class="card__icon" aria-label="card icon">
-						<use href="./assets/sprites.svg#third-card-icon"></use>
-					</svg>
+					<img
+						src="assets/svgs/third-card-icon.svg"
+						class="card__icon"
+						alt="card icon"
+					/>
 					<h3 class="card__title">Service</h3>
 					<p class="card__description" aria-label="card description">
 						We believe in providing exceptional customer service, from initial
@@ -237,7 +247,7 @@
 					<div class="our-service__column-wrapper">
 						<div class="card" aria-label="card">
 							<img
-								src="assets/svgs/Title & Desc.svg"
+								src="assets/svgs/fourth-card-icon.svg"
 								class="card__icon"
 								alt="card icon"
 							/>
@@ -251,11 +261,11 @@
 							</button>
 						</div>
 						<div class="card" aria-label="card">
-							<svg class="card__icon" aria-label="card icon">
-								<use
-									href="./assets/sprites.svg#fourth-card-icon-our-service"
-								></use>
-							</svg>
+							<img
+								src="assets/svgs/fifth-card-icon.svg"
+								class="card__icon"
+								alt="card icon"
+							/>
 							<h3 class="card__title">VR Games</h3>
 							<p class="card__description" aria-label="card description">
 								We offer a wide selection of VR games that are suitable for
@@ -268,11 +278,11 @@
 					</div>
 					<div class="our-service__column-wrapper">
 						<div class="card" aria-label="card">
-							<svg class="card__icon" aria-label="card icon">
-								<use
-									href="./assets/sprites.svg#second-card-icon-our-service"
-								></use>
-							</svg>
+							<img
+								src="assets/svgs/sixth-card-icon.svg"
+								class="card__icon"
+								alt="card icon"
+							/>
 							<h3 class="card__title">VR Design</h3>
 							<p class="card__description" aria-label="card description">
 								Our talented VR designers will create immersive and engaging
@@ -283,11 +293,11 @@
 							</button>
 						</div>
 						<div class="card" aria-label="card">
-							<svg class="card__icon" aria-label="card icon">
-								<use
-									href="./assets/sprites.svg#fifth-card-icon-our-service"
-								></use>
-							</svg>
+							<img
+								src="assets/svgs/seventh-card-icon.svg"
+								class="card__icon"
+								alt="card icon"
+							/>
 							<h3 class="card__title">VR Events</h3>
 							<p class="card__description" aria-label="card description">
 								Make your next event unforgettable with our VR event services.
@@ -299,11 +309,11 @@
 					</div>
 					<div class="our-service__column-wrapper">
 						<div class="card" aria-label="card">
-							<svg class="card__icon" aria-label="card icon">
-								<use
-									href="./assets/sprites.svg#third-card-icon-our-service"
-								></use>
-							</svg>
+							<img
+								src="assets/svgs/eighth-card-icon.svg"
+								class="card__icon"
+								alt="card icon"
+							/>
 							<h3 class="card__title">VR Consulting</h3>
 							<p class="card__description" aria-label="card description">
 								Our VR consultants will work with you to ensure that your VR
@@ -314,11 +324,11 @@
 							</button>
 						</div>
 						<div class="card" aria-label="card">
-							<svg class="card__icon" aria-label="card icon">
-								<use
-									href="./assets/sprites.svg#sixth-card-icon-our-service"
-								></use>
-							</svg>
+							<img
+								src="assets/svgs/ninth-card-icon.svg"
+								class="card__icon"
+								alt="card icon"
+							/>
 							<h3 class="card__title">VR Entertainment</h3>
 							<p class="card__description" aria-label="card description">
 								Create a VR escape room, or offer VR experiences at a theme
@@ -536,12 +546,11 @@
 							class="our-pricing__pricing-benefits-card"
 							aria-label="first pricing card"
 						>
-							<svg
+							<img
+								src="assets/svgs/our-pricing-icon.svg"
 								class="our-pricing__pricing-benefits-card-icon"
-								aria-label="card icon"
-							>
-								<use href="./assets/sprites.svg#pricing-card-icon"></use>
-							</svg>
+								alt="card icon"
+							/>
 							<div class="our-pricing__pricing-benefits-card-information">
 								<h3 class="our-pricing__pricing-benefits-card-title">
 									Customizable Packages
@@ -562,12 +571,11 @@
 							class="our-pricing__pricing-benefits-card"
 							aria-label="second pricing card"
 						>
-							<svg
+							<img
+								src="assets/svgs/our-pricing-icon.svg"
 								class="our-pricing__pricing-benefits-card-icon"
-								aria-label="card icon"
-							>
-								<use href="./assets/sprites.svg#pricing-card-icon"></use>
-							</svg>
+								alt="card icon"
+							/>
 							<div class="our-pricing__pricing-benefits-card-information">
 								<h3 class="our-pricing__pricing-benefits-card-title">
 									Flexible Payment Options
@@ -588,12 +596,11 @@
 							class="our-pricing__pricing-benefits-card"
 							aria-label="third pricing card"
 						>
-							<svg
+							<img
+								src="assets/svgs/our-pricing-icon.svg"
 								class="our-pricing__pricing-benefits-card-icon"
-								aria-label="card icon"
-							>
-								<use href="./assets/sprites.svg#pricing-card-icon"></use>
-							</svg>
+								alt="card icon"
+							/>
 							<div class="our-pricing__pricing-benefits-card-information">
 								<h3 class="our-pricing__pricing-benefits-card-title">
 									Satisfaction Guarantee
@@ -689,22 +696,32 @@
 			<img src="assets/images/footer-lines.png" class="footer__bg-lines" />
 			<div class="footer__container">
 				<div class="footer__icons-wrapper">
-					<svg class="footer__logo" aria-label="footer logo">
-						<use href="./assets/sprites.svg#header-logo"></use>
-					</svg>
+					<img
+						src="assets/svgs/logo.svg"
+						class="footer__logo"
+						alt="footer logo"
+					/>
 					<div class="footer__social-media-wrapper">
-						<svg class="footer__social-media-logo" aria-label="twitter logo">
-							<use href="./assets/sprites.svg#twitter-icon"></use>
-						</svg>
-						<svg class="footer__social-media-logo" aria-label="facebook logo">
-							<use href="./assets/sprites.svg#facebook-icon"></use>
-						</svg>
-						<svg class="footer__social-media-logo" aria-label="instagram logo">
-							<use href="./assets/sprites.svg#instagram-icon"></use>
-						</svg>
-						<svg class="footer__social-media-logo" aria-label="github logo">
-							<use href="./assets/sprites.svg#github-icon"></use>
-						</svg>
+						<img
+							src="assets/svgs/twitter-logo.svg"
+							class="footer__social-media-logo"
+							alt="twitter logo"
+						/>
+						<img
+							src="assets/svgs/facebook-logo.svg"
+							class="footer__social-media-logo"
+							alt="facebook logo"
+						/>
+						<img
+							src="assets/svgs/instagram-logo.svg"
+							class="footer__social-media-logo"
+							alt="instagram logo"
+						/>
+						<img
+							src="assets/svgs/github-logo.svg"
+							class="footer__social-media-logo"
+							alt="github logo"
+						/>
 					</div>
 				</div>
 				<div class="footer__links-wrapper">
