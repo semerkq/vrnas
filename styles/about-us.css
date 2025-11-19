@@ -262,3 +262,50 @@
 		font-size: 12px;
 	}
 }
+
+@media (max-width: 740px) {
+	.about-us {
+		margin: 0 0 0 0;
+		translate: 0 -2%;
+	}
+
+	.about-us__container {
+		max-width: 350px;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 5px;
+		gap: 60px;
+	}
+
+	.about-us__main-image-wrapper::after {
+		translate: 0 -2%;
+	}
+
+	.about-us__section-name {
+		font-size: 12px;
+	}
+
+	.about-us__title {
+		font-size: 24px;
+	}
+
+	.about-us__description {
+		font-size: 12px;
+	}
+
+	.about-us__list-item {
+		font-size: 12px;
+		padding: 0 0 0 24px;
+	}
+
+	.about-us__list-item::before {
+		translate: 0 -15%;
+	}
+
+	.button--about-us {
+		width: 130px;
+		height: 40px;
+		margin: 10px 0 0 0;
+		font-size: 12px;
+	}
+}

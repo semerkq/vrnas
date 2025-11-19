@@ -93,6 +93,8 @@ input:checked ~ .header__nav-mobile-burger .header__nav-mobile-burger-icon {
 	position: relative;
 	width: 32px;
 	height: 32px;
+	background-color: #18181b;
+	translate: 0 -10px;
 }
 
 .header__nav-mobile-burger-icon::before,
@@ -166,14 +168,22 @@ input:checked ~ .header__nav-mobile-burger .header__nav-mobile-burger-icon {
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
+	right: 0;
 	translate: -100%;
 	width: 100vw;
-	height: 50vh;
+	height: 400px;
 	transition: translate 0.6s ease-in-out;
 	background-color: #252532e4;
+}
+
+.header_nav-mobile-container {
+	max-width: 350px;
+	margin: 0 auto;
+	padding: 100px 20px 0;
+	width: 100%;
 }
 
 .header__nav-mobile-list {
@@ -183,11 +193,6 @@ input:checked ~ .header__nav-mobile-burger .header__nav-mobile-burger-icon {
 	gap: 25px;
 	list-style: none;
 	font-size: 20px;
-	padding: 100px 0 0 20px;
-}
-
-.header_nav-mobile-wrapper .button-second-type {
-	margin: 0 0 0 20px;
 }
 
 .header__nav-mobile-item-arrow {
@@ -230,6 +235,11 @@ input:checked ~ .header__nav-mobile-burger .header__nav-mobile-burger-icon {
 }
 
 @media (max-width: 740px) {
+	.header__container {
+		max-width: 350px;
+		position: relative;
+	}
+
 	.header__nav-list {
 		display: none;
 	}
@@ -240,5 +250,6 @@ input:checked ~ .header__nav-mobile-burger .header__nav-mobile-burger-icon {
 
 	.header__nav-mobile {
 		display: block;
+		margin-left: auto;
 	}
 }

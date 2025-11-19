@@ -99,3 +99,33 @@
 		translate: -10%;
 	}
 }
+
+@media (max-width: 740px) {
+	.advantages {
+		translate: 0 -8%;
+	}
+
+	.advantages__container {
+		max-width: 350px;
+		flex-wrap: wrap;
+		height: 100%;
+		padding: 0 5px;
+	}
+
+	.advantages__container .card {
+		padding: 0 28px 0 28px;
+		max-width: 300px;
+	}
+
+	.advantages__container .card:first-child {
+		padding-top: 20px;
+	}
+	.advantages__container .card__icon {
+		scale: 0.6;
+		translate: -20%;
+	}
+
+	.advantages__container .card__title {
+		margin: 3px 0 0 0;
+	}
+}
