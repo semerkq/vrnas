@@ -284,6 +284,11 @@
 		padding: 40px 0 0 0;
 	}
 
+	.hero__clients-container {
+		height: 40px;
+		padding: 0;
+	}
+
 	.hero__main-image-wrapper {
 		max-width: 430px;
 		height: 100%;

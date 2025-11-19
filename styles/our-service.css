@@ -260,3 +260,54 @@
 		padding: 0 0 0 36px;
 	}
 }
+
+@media (max-width: 740px) {
+	.our-service {
+		margin: 60px 0 0 0;
+	}
+
+	.our-service__container {
+		max-width: 350px;
+		padding: 0 5px;
+		height: 100%;
+	}
+
+	.our-service__information-wrapper {
+		gap: 12px;
+		flex-wrap: wrap;
+	}
+
+	.our-service__title-and-sedcription-wrapper {
+		max-width: 100%;
+	}
+
+	.our-service__section-name {
+		font-size: 12px;
+	}
+
+	.our-service__title {
+		font-size: 24px;
+	}
+
+	.our-service__description {
+		font-size: 12px;
+	}
+
+	.our-service__cards-wrapper .card {
+		pointer-events: none;
+	}
+
+	.our-service__column-wrapper:nth-child(3) {
+		flex-direction: column;
+	}
+
+	.our-service .card .button-second-type {
+		opacity: 1;
+		animation: none;
+		top: 9%;
+		left: 70%;
+		font-size: 12px;
+		height: 40px;
+		width: 120px;
+	}
+}
