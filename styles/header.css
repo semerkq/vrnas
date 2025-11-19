@@ -92,10 +92,13 @@ input:checked ~ .header__nav-mobile-burger .header__nav-mobile-burger-icon {
 	width: 32px;
 	height: 32px;
 	scale: 1.2;
+	shape-rendering: crispEdges;
 }
 
 .header__nav-mobile-cross-icon {
 	display: none;
+	scale: 1.2;
+	shape-rendering: crispEdges;
 }
 
 .header_nav-mobile-wrapper {
