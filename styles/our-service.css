@@ -208,6 +208,19 @@
 		font-size: 28px;
 	}
 
+	.our-service .card .button-second-type {
+		width: 140px;
+		height: 40px;
+		top: 75%;
+		left: 50%;
+		font-size: 12px;
+		translate: -50%;
+		z-index: 99;
+		opacity: 0;
+		font-weight: 700;
+		letter-spacing: 1.5px;
+	}
+
 	.our-service__description {
 		font-size: 14px;
 		line-height: 105%;
