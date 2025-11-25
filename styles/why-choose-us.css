@@ -264,12 +264,17 @@
 		font-size: 12px;
 	}
 
+	.why-choose-us__information-wrapper {
+		order: 2;
+	}
+
 	.why-choose-us__title {
 		font-size: 24px;
 	}
 
 	.why-choose-us__reasons-wrapper {
 		gap: 20px;
+		order: 1;
 	}
 
 	.why-choose-us-image-wrapper::after {
