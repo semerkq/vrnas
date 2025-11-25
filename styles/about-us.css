@@ -6,9 +6,8 @@
 	display: flex;
 	gap: 100px;
 	align-items: end;
-	max-width: 1200px;
+	width: 1200px;
 	margin: 0 auto;
-	width: 100%;
 }
 
 .about-us__main-image-wrapper {
@@ -173,7 +172,7 @@
 
 @media (max-width: 1260px) {
 	.about-us__container {
-		max-width: 1000px;
+		width: 1000px;
 	}
 
 	.about-us__information-wrapper {
@@ -192,7 +191,7 @@
 	}
 
 	.about-us__container {
-		max-width: 700px;
+		width: 700px;
 	}
 
 	.about-us__main-image-wrapper {
@@ -270,7 +269,7 @@
 	}
 
 	.about-us__container {
-		max-width: 350px;
+		width: 350px;
 		flex-wrap: wrap;
 		justify-content: center;
 		padding: 0 5px;

@@ -15,13 +15,13 @@
 }
 
 .what-our-clients-are-saying__container {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 12px;
-	max-width: 1200px;
+	width: 1200px;
 	align-items: center;
 	margin: 0 auto;
-	width: 100%;
 	padding: 111px 20px 0 20px;
 }
 
@@ -49,7 +49,6 @@
 }
 
 .what-our-clients-are-saying__main-image-wrapper {
-	position: relative;
 	max-width: 1164px;
 	max-height: 831px;
 	padding: 51px 0 0 84px;
@@ -65,47 +64,47 @@
 	width: 75px;
 	height: 75px;
 	top: 350px;
-	left: 330px;
+	left: 6px;
 }
 
 .what-our-clients-are-saying__client-image-wrapper:nth-of-type(3) {
 	position: absolute;
 	width: 75px;
 	height: 75px;
-	top: 230px;
-	right: 820px;
+	top: 250px;
+	right: 440px;
 }
 
 .what-our-clients-are-saying__client-image-wrapper:nth-of-type(4) {
 	position: absolute;
 	width: 75px;
 	height: 75px;
-	top: 600px;
-	right: 356px;
+	top: 550px;
+	right: 130px;
 }
 
 .what-our-clients-are-saying__client-image-wrapper:nth-of-type(5) {
 	position: absolute;
 	width: 75px;
 	height: 75px;
-	top: 805px;
-	right: 900px;
+	bottom: 97px;
+	right: 580px;
 }
 
 .what-our-clients-are-saying__client-image-wrapper:nth-of-type(6) {
 	position: absolute;
 	width: 75px;
 	height: 75px;
-	top: 900px;
-	left: 405px;
+	bottom: 65px;
+	left: 144px;
 }
 
 .what-our-clients-are-saying__client-image-wrapper:nth-of-type(7) {
 	position: absolute;
 	width: 75px;
 	height: 75px;
-	top: 1120px;
-	right: 600px;
+	bottom: -99px;
+	right: 180px;
 }
 
 .what-our-clients-are-saying__client-image-wrapper::before {
@@ -145,7 +144,7 @@
 	}
 
 	.what-our-clients-are-saying__container {
-		max-width: 1000px;
+		width: 1000px;
 	}
 
 	.what-our-clients-are-saying__container {
@@ -160,6 +159,36 @@
 	.what-our-clients-are-saying__main-image-wrapper {
 		padding: 140px 0 0 80px;
 	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(2) {
+		top: 400px;
+		left: -40px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(3) {
+		top: 280px;
+		right: 370px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(4) {
+		top: 550px;
+		right: 80px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(5) {
+		bottom: 85px;
+		right: 480px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(6) {
+		bottom: 35px;
+		left: 95px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(7) {
+		bottom: -139px;
+		right: 180px;
+	}
 }
 
 @media (max-width: 1040px) {
@@ -172,7 +201,7 @@
 	}
 
 	.what-our-clients-are-saying__container {
-		max-width: 800px;
+		width: 800px;
 		padding: 90px 0 0 0;
 	}
 
@@ -199,6 +228,36 @@
 	.what-our-clients-are-saying__main-image-wrapper img {
 		scale: 1.1;
 	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(2) {
+		top: 400px;
+		left: -94px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(3) {
+		top: 280px;
+		right: 220px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(4) {
+		top: 550px;
+		right: 28px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(5) {
+		bottom: 10px;
+		right: 370px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(6) {
+		bottom: -40px;
+		left: 95px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(7) {
+		bottom: -235px;
+		right: 100px;
+	}
 }
 
 @media (max-width: 740px) {
@@ -206,7 +265,7 @@
 		height: 840px;
 	}
 	.what-our-clients-are-saying__container {
-		max-width: 350px;
+		width: 350px;
 		padding: 90px 5px 0 5px;
 	}
 
@@ -231,14 +290,33 @@
 		scale: 2;
 	}
 
-	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(6) {
-		top: 706px;
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(2) {
+		top: 300px;
+		left: 9px;
 	}
 
-	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(3),
-	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(5),
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(3) {
+		top: 140px;
+		right: 220px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(4) {
+		top: 220px;
+		right: 28px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(5) {
+		bottom: -70px;
+		right: 135px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(6) {
+		bottom: -140px;
+		left: 25px;
+	}
+
 	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(7) {
-		top: 0;
-		right: 0;
+		bottom: -225px;
+		right: 100px;
 	}
 }

@@ -75,6 +75,26 @@
 	}
 }
 
+@keyframes bigAndSmallAnimation2 {
+	0%,
+	100% {
+		scale: 0.8;
+		animation-timing-function: ease-out;
+	}
+	25% {
+		scale: 0.84;
+		animation-timing-function: ease-in;
+	}
+	50% {
+		scale: 0.86;
+		animation-timing-function: ease-in;
+	}
+	75% {
+		scale: 0.9;
+		animation-timing-function: ease-in;
+	}
+}
+
 @keyframes secondTypeOfEmergence {
 	from {
 		opacity: 0;

@@ -15,9 +15,8 @@
 	display: flex;
 	gap: 135px;
 	align-items: center;
-	max-width: 1200px;
+	width: 1200px;
 	margin: 0 auto;
-	width: 100%;
 }
 
 .hero__wrapper {
@@ -187,7 +186,7 @@
 @media (max-width: 1260px) {
 	.hero__container {
 		gap: 70px;
-		max-width: 1000px;
+		width: 1000px;
 	}
 
 	.hero__title {
@@ -215,7 +214,7 @@
 	}
 
 	.hero__container {
-		max-width: 700px;
+		width: 700px;
 		gap: 30px;
 	}
 
@@ -272,16 +271,15 @@
 
 @media (max-width: 740px) {
 	.hero__container {
-		max-width: 350px;
+		width: 350px;
 		width: 100%;
 		flex-wrap: wrap;
 		gap: 0;
-		padding: 0 5px;
 		justify-content: center;
 	}
 
 	.hero__title-wrapper {
-		padding: 40px 0 0 0;
+		padding: 40px 38px 0 0;
 	}
 
 	.hero__clients-container {
@@ -298,7 +296,7 @@
 	}
 
 	.hero__video {
-		translate: 26px;
+		translate: 20px;
 		z-index: 99;
 	}
 

@@ -3,9 +3,8 @@
 	background-color: var(--black-bg-color);
 	align-items: start;
 	justify-content: space-around;
-	max-width: 1200px;
+	width: 1200px;
 	margin: 31px auto;
-	width: 100%;
 	border: 1px solid;
 	border-image: var(--card-border-color) 1;
 	height: 357px;
@@ -33,7 +32,7 @@
 
 @media (max-width: 1260px) {
 	.advantages__container {
-		max-width: 1000px;
+		width: 1000px;
 		margin: 31px auto;
 		height: 357px;
 		align-items: center;
@@ -67,7 +66,7 @@
 
 @media (max-width: 1040px) {
 	.advantages__container {
-		max-width: 700px;
+		width: 700px;
 		height: 275px;
 	}
 
@@ -102,11 +101,11 @@
 
 @media (max-width: 740px) {
 	.advantages {
-		translate: 0 -8%;
+		translate: 0 -6.8%;
 	}
 
 	.advantages__container {
-		max-width: 350px;
+		width: 350px;
 		flex-wrap: wrap;
 		height: 100%;
 		padding: 0 5px;
