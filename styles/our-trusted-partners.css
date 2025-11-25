@@ -253,15 +253,15 @@
 
 	.our-trusted-partners__partner-container:nth-of-type(7) {
 		scale: 0.8;
-		top: 520px;
-		left: -24px;
+		top: 500px;
+		left: -34px;
 		animation: bigAndSmallAnimation2 4s 8s forwards infinite;
 	}
 
 	.our-trusted-partners__partner-container:nth-of-type(8) {
 		scale: 0.8;
-		top: 520px;
-		right: -28px;
+		top: 500px;
+		right: -34px;
 		animation: bigAndSmallAnimation2 4s 2s forwards infinite;
 	}
 }

@@ -87,23 +87,6 @@
     </defs>
   </symbol>
 
-  <symbol width="1055" height="541" viewBox="0 0 1055 541" id="bg-rounds2">
-    <circle cx="528.823" cy="526.943" r="310.936" stroke="white" stroke-opacity="0.17" stroke-width="0.845966"
-      fill="none" />
-    <circle cx="528.305" cy="527.459" r="379.839" stroke="white" stroke-opacity="0.17" stroke-width="0.845966"
-      fill="none" />
-    <circle cx="527.882" cy="527.882" r="458.09" stroke="url(#paint0_linear_0_1)" stroke-width="0.845966" fill="none" />
-    <circle cx="527.459" cy="527.459" r="527.036" stroke="white" stroke-opacity="0.17" stroke-width="0.845966"
-      fill="none" />
-    <defs>
-      <linearGradient id="paint0_linear_0_1" x1="69.3691" y1="527.882" x2="986.396" y2="527.882"
-        gradientUnits="userSpaceOnUse">
-        <stop stop-color="#0CBAF1" />
-        <stop offset="1" stop-color="#E95CE9" />
-      </linearGradient>
-    </defs>
-  </symbol>
-
   <symbol width="79" height="20" viewBox="0 0 79 20" id="partner-logo1">
     <g clip-path="url(#clip0_43_1753)">
       <path
