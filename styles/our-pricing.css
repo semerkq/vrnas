@@ -304,6 +304,9 @@
 }
 
 @media (max-width: 740px) {
+	.our-pricing {
+		margin: 0 0 0 0;
+	}
 	.our-pricing__container {
 		max-width: 350px;
 		padding: 0 5px;
@@ -319,5 +322,75 @@
 
 	.our-pricing__description {
 		font-size: 12px;
+	}
+
+	.our-pricing__pricing {
+		flex-wrap: wrap;
+		justify-content: start;
+		max-height: 650px;
+	}
+
+	.our-pricing__pricing__cards-wrapper {
+		margin: 25px 0 25px 4px;
+	}
+
+	.our-pricing__pricing-benefits-card {
+		max-width: 330px;
+	}
+
+	.our-pricing__pricing__cards-wrapper::after {
+		height: 1px;
+		width: 80%;
+		left: 50%;
+		translate: -51%;
+		bottom: -7%;
+	}
+
+	.our-pricing__pricing-benefits-card-icon {
+		scale: 0.6;
+		translate: 0 -17%;
+	}
+
+	.our-pricing__pricing-benefits-card-information {
+		gap: 7px;
+	}
+
+	.our-pricing__pricing-benefits-card-title {
+		font-size: 16px;
+	}
+
+	.our-pricing__pricing-image {
+		max-width: 210px;
+		margin-left: auto;
+		translate: 0 -6%;
+		scale: 0.8;
+	}
+
+	.our-pricing__price-card {
+		width: 200px;
+		height: 140px;
+		gap: 8px;
+		right: 40%;
+		top: 100%;
+		translate: 0 -50%;
+	}
+
+	.our-pricing__price-card-top-text {
+		line-height: 18px;
+	}
+
+	.our-pricing__price-card-price {
+		font-size: 20px;
+	}
+
+	.button--card-price {
+		width: 120px;
+		height: 30px;
+		font-size: 10px;
+	}
+
+	.our-pricing__price-card-bottom-text {
+		font-size: 10px;
+		line-height: 15px;
 	}
 }
