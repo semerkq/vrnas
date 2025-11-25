@@ -246,3 +246,33 @@
 		width: 130px;
 	}
 }
+
+@media (max-width: 740px) {
+	.why-choose-us {
+		margin: 150px 0 0 0;
+	}
+
+	.why-choose-us__container {
+		max-width: 350px;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 5px;
+		gap: 20px;
+	}
+
+	.why-choose-us__section-name {
+		font-size: 12px;
+	}
+
+	.why-choose-us__title {
+		font-size: 24px;
+	}
+
+	.why-choose-us__reasons-wrapper {
+		gap: 20px;
+	}
+
+	.why-choose-us-image-wrapper::after {
+		translate: -27% -1.5%;
+	}
+}

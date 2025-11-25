@@ -264,12 +264,13 @@
 @media (max-width: 740px) {
 	.our-service {
 		margin: 60px 0 0 0;
+		min-height: 1500px;
 	}
 
 	.our-service__container {
 		max-width: 350px;
 		padding: 0 5px;
-		height: 100%;
+		min-height: 1500px;
 	}
 
 	.our-service__information-wrapper {
