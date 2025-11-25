@@ -107,7 +107,6 @@
 	height: 80%;
 	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #252532);
 	opacity: 0;
-	pointer-events: none;
 }
 
 .our-service__cards-wrapper .card:hover::after {
@@ -294,8 +293,17 @@
 		font-size: 12px;
 	}
 
-	.our-service__cards-wrapper .card {
-		pointer-events: none;
+	.our-service__cards-wrapper .card:hover .button-second-type {
+		opacity: 0;
+	}
+
+	.our-service__cards-wrapper .card:hover::after {
+		opacity: 0;
+	}
+
+	.our-service__cards-wrapper .card:hover {
+		border-image: var(--card-border-color) 1;
+		cursor: default;
 	}
 
 	.our-service__column-wrapper:nth-child(3) {

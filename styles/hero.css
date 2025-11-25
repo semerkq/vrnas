@@ -297,6 +297,11 @@
 		translate: 0 -20%;
 	}
 
+	.hero__video {
+		translate: 22px;
+		z-index: 99;
+	}
+
 	.hero__main-image-wrapper::before {
 		scale: 0.6;
 	}
