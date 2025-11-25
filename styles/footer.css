@@ -183,3 +183,64 @@
 		translate: 0 3px;
 	}
 }
+
+@media (max-width: 740px) {
+	.footer {
+		max-height: 600px;
+	}
+
+	.footer__bg-lines {
+		width: 100%;
+	}
+
+	.footer__container {
+		max-width: 350px;
+		padding: 0 5px;
+		flex-wrap: wrap;
+	}
+
+	.footer__icons-wrapper {
+		gap: 20px;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer__social-media-wrapper {
+		gap: 14px;
+		translate: 0;
+	}
+
+	.footer__links-wrapper {
+		gap: 0;
+		row-gap: 20px;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.footer__quicklinks-wrapper,
+	.footer__support-wrapper,
+	.footer__help-wrapper {
+		gap: 8px;
+		width: 50%;
+	}
+
+	.footer__quicklinks-wrapper,
+	.footer__support-wrapper {
+		width: 33%;
+	}
+
+	.footer__help-list {
+		translate: 0 0;
+	}
+
+	.footer__quicklinks-list li,
+	.footer__support-list li,
+	.footer__help-list li {
+		margin: 0 0 8px 0;
+	}
+
+	.footer__help-icon {
+		translate: 0 5px;
+	}
+}

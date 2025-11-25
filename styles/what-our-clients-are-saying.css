@@ -164,7 +164,6 @@
 
 @media (max-width: 1040px) {
 	.what-our-clients-are-saying {
-		overflow-x: hidden;
 		margin: 0 0 0 0;
 	}
 
@@ -204,7 +203,7 @@
 
 @media (max-width: 740px) {
 	.what-our-clients-are-saying {
-		height: 680px;
+		height: 840px;
 	}
 	.what-our-clients-are-saying__container {
 		max-width: 350px;
@@ -230,5 +229,16 @@
 
 	.what-our-clients-are-saying__main-image-wrapper img {
 		scale: 2;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(6) {
+		top: 706px;
+	}
+
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(3),
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(5),
+	.what-our-clients-are-saying__client-image-wrapper:nth-of-type(7) {
+		top: 0;
+		right: 0;
 	}
 }
