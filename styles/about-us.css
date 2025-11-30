@@ -15,7 +15,11 @@
 	width: 518px;
 	height: 622px;
 	flex-shrink: 0;
-	animation: mainImageAnimationFromLeft 0.6s ease-in-out;
+	opacity: 0;
+}
+
+.about-us__main-image-wrapper--visible {
+	animation: mainImageAnimationFromLeft 0.6s ease-in-out forwards;
 }
 
 .about-us__main-image {
@@ -107,7 +111,10 @@
 	font-weight: 500;
 	letter-spacing: 14%;
 	opacity: 0;
-	animation: videoAnimation 0.9s ease-in-out 0.5s forwards;
+}
+
+.about-us__section-name--visible {
+	animation: videoAnimation 0.9s ease-in-out 0.6s forwards;
 }
 
 .about-us__title {
@@ -116,7 +123,10 @@
 	font-weight: 600;
 	line-height: 58px;
 	opacity: 0;
-	animation: animationOfEmergence 0.6s ease-in-out 0.3s forwards;
+}
+
+.about-us__title--visible {
+	animation: animationOfEmergence 0.6s ease-in-out 0.6s forwards;
 }
 
 .about-us__description {
@@ -125,7 +135,10 @@
 	line-height: 28px;
 	font-weight: 300;
 	opacity: 0;
-	animation: animationOfEmergence 0.6s ease-in-out 0.5s forwards;
+}
+
+.about-us__description--visible {
+	animation: animationOfEmergence 0.6s ease-in-out 0.8s forwards;
 }
 
 .about-us__list {
@@ -135,6 +148,9 @@
 	flex-direction: column;
 	gap: 14px;
 	opacity: 0;
+}
+
+.about-us__list--visible {
 	animation: animationOfEmergence 0.6s ease-in-out 0.6s forwards;
 }
 

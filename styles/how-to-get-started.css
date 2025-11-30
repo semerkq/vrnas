@@ -30,6 +30,9 @@
 	font-weight: 500;
 	letter-spacing: 14%;
 	opacity: 0;
+}
+
+.how-to-get-started__section-name--visible {
 	animation: videoAnimation 0.9s ease-in-out 0.5s forwards;
 }
 
@@ -39,8 +42,11 @@
 	font-weight: 600;
 	line-height: 58px;
 	opacity: 0;
-	animation: animationOfEmergence 0.6s ease-in-out 0.3s forwards;
 	text-align: center;
+}
+
+.how-to-get-started__title--visible {
+	animation: animationOfEmergence 0.6s ease-in-out 0.9s forwards;
 }
 
 .how-to-get-started__video-container {
@@ -50,8 +56,11 @@
 	overflow: hidden;
 	border-radius: 12px;
 	opacity: 0;
-	animation: animationOfEmergence 0.6s ease-in-out 0.7s forwards;
 	cursor: pointer;
+}
+
+.how-to-get-started__video-container--visible {
+	animation: animationOfEmergence 0.6s ease-in-out 0.7s forwards;
 }
 
 .how-to-get-started__video-container::before {

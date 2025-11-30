@@ -35,6 +35,9 @@
 	text-align: center;
 	letter-spacing: 14%;
 	opacity: 0;
+}
+
+.our-trusted-partners__section-name--visible {
 	animation: videoAnimation 0.9s ease-in-out 0.7s forwards;
 }
 
@@ -44,8 +47,11 @@
 	font-weight: 600;
 	line-height: 58px;
 	opacity: 0;
-	animation: animationOfEmergence 0.6s ease-in-out 0.5s forwards;
 	text-align: center;
+}
+
+.our-trusted-partners__title--visible {
+	animation: animationOfEmergence 0.6s ease-in-out 0.9s forwards;
 }
 
 .our-trusted-partners__main-image-wrapper {
@@ -131,7 +137,14 @@
 		.our-trusted-partners .our-trusted-partners__section-name
 	) {
 	opacity: 0;
+}
+
+.our-trusted-partners--visible:not(
+		.our-trusted-partners .our-trusted-partners__title,
+		.our-trusted-partners .our-trusted-partners__section-name
+	) {
 	animation: secondTypeOfEmergence 0.7s ease-in-out forwards;
+	overflow-x: hidden;
 }
 
 @media (max-width: 1260px) {

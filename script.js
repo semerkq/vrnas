@@ -1,3 +1,21 @@
-import { calculateLocation } from "./scripts/testimonial.js";
+import { changeColorOfHeader } from "./scripts/header.js";
+import { initHeroScrollAnimation } from "./scripts/scroll-animation-hero.js";
+import { initAdvantagesAnimation } from "./scripts/scroll-animation-advantages.js";
+import { initAboutUsAnimation } from "./scripts/scroll-animation-about-us.js";
+import { initOurServiceAnimation } from "./scripts/scroll-animation-our-sevice.js";
+import { initWhyChooseUsAnimation } from "./scripts/scroll-animation-why-choose-us.js";
+import { initHowToGetStartedAnimation } from "./scripts/scroll-animation-how-to-get-started.js";
+import { initWhatOurClientsAreSayingAnimation } from "./scripts/scroll-animation-what-our-clients.js";
+import { initOurPricingAnimation } from "./scripts/scroll-animation-our-pricing.js";
+import { initOurTrustedPartnersAnimation } from "./scripts/scroll-animation-our-trusted-partners.js";
 
-window.addEventListener("resize", calculateLocation);
+changeColorOfHeader();
+initHeroScrollAnimation();
+initAdvantagesAnimation();
+initAboutUsAnimation();
+initOurServiceAnimation();
+initWhyChooseUsAnimation();
+initHowToGetStartedAnimation();
+initWhatOurClientsAreSayingAnimation();
+initOurPricingAnimation();
+initOurTrustedPartnersAnimation();

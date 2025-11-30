@@ -36,16 +36,23 @@
 	text-align: center;
 	letter-spacing: 14%;
 	opacity: 0;
+}
+
+.what-our-clients-are-saying__section-name--visible {
 	animation: videoAnimation 0.9s ease-in-out 0.7s forwards;
 }
+
 .what-our-clients-are-saying__title {
 	color: var(--white-text-color);
 	font-size: 48px;
 	font-weight: 600;
 	line-height: 58px;
 	opacity: 0;
-	animation: animationOfEmergence 0.6s ease-in-out 0.5s forwards;
 	text-align: center;
+}
+
+.what-our-clients-are-saying__title--visible {
+	animation: animationOfEmergence 0.6s ease-in-out 0.9s forwards;
 }
 
 .what-our-clients-are-saying__main-image-wrapper {
@@ -131,6 +138,12 @@
 		.what-our-clients-are-saying .what-our-clients-are-saying__section-name
 	) {
 	opacity: 0;
+}
+
+.what-our-clients-are-saying--visible:not(
+		.what-our-clients-are-saying .what-our-clients-are-saying__title,
+		.what-our-clients-are-saying .what-our-clients-are-saying__section-name
+	) {
 	animation: secondTypeOfEmergence 0.7s ease-in-out forwards;
 }
 

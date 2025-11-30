@@ -10,6 +10,13 @@
 	z-index: 999;
 }
 
+.header--active {
+	background-color: #25253256;
+	backdrop-filter: blur(30px);
+	height: 80px;
+	padding: 0;
+}
+
 .header__container {
 	height: 100%;
 	display: flex;

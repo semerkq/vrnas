@@ -28,6 +28,9 @@
 	font-weight: 500;
 	letter-spacing: 14%;
 	opacity: 0;
+}
+
+.why-choose-us__section-name--visible {
 	animation: videoAnimation 0.9s ease-in-out 0.5s forwards;
 }
 
@@ -37,6 +40,9 @@
 	font-weight: 600;
 	line-height: 58px;
 	opacity: 0;
+}
+
+.why-choose-us__title--visible {
 	animation: animationOfEmergence 0.6s ease-in-out 0.3s forwards;
 }
 
@@ -46,6 +52,9 @@
 	gap: 48px;
 	padding: 22px 0 0 0;
 	opacity: 0;
+}
+
+.why-choose-us__reasons-wrapper--visible {
 	animation: animationOfEmergence 0.6s ease-in-out 0.3s forwards;
 }
 
@@ -88,7 +97,11 @@
 	position: relative;
 	max-width: 608px;
 	height: 100%;
-	animation: mainImageAnimation 0.6s ease-in-out;
+	opacity: 0;
+}
+
+.why-choose-us-image-wrapper--visible {
+	animation: mainImageAnimation 0.6s ease-in-out forwards;
 }
 
 .why-choose-us-image {
