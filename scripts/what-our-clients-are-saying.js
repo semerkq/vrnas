@@ -44,12 +44,18 @@ export const showOpinionCard = () => {
 					"what-our-clients-are-saying__client-image-wrapper--active"
 				);
 
-				if (window.innerWidth <= 1280 && window.innerWidth > 780) {
-					if (index === 2 || index === 5) {
-						clientWrappers[index].classList.add(
-							"what-our-clients-are-saying__client-wrapper--translate"
-						);
-					}
+				if (index === 2 && window.innerWidth > 780) {
+					clientWrappers[index].classList.add(
+						"what-our-clients-are-saying__client-wrapper--translate"
+					);
+				} else if (
+					window.innerWidth <= 1280 &&
+					window.innerWidth > 780 &&
+					index === 5
+				) {
+					clientWrappers[index].classList.add(
+						"what-our-clients-are-saying__client-wrapper--translate"
+					);
 				} else if (window.innerWidth <= 780) {
 					if (index === 1 || index === 2 || index === 4 || index === 5) {
 						clientWrappers[index].classList.add(
