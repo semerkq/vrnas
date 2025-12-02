@@ -15,7 +15,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="index.css" />
@@ -26,18 +26,26 @@
 	<body>
 		<header class="header" aria-label="header">
 			<div class="header__container">
-				<img
-					src="assets/svgs/logo.svg"
-					class="header__logo"
-					alt="header logo"
-				/>
+				<a href="#home" class="header__logo-link">
+					<img
+						src="assets/svgs/logo.svg"
+						class="header__logo"
+						alt="header logo"
+					/>
+				</a>
 				<div class="header__nav" aria-label="menu">
 					<ul class="header__nav-list">
-						<li class="header__nav-item">Home</li>
-						<li class="header__nav-item">About us</li>
-						<li class="header__nav-item">Service</li>
 						<li class="header__nav-item">
-							Page
+							<a href="#home" class="header__nav-link">Home</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="#about-us" class="header__nav-link">About us</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="#our-service" class="header__nav-link">Service</a>
+						</li>
+						<li class="header__nav-item">
+							<a href="#our-pricing" class="header__nav-link">Page</a>
 							<svg class="header__nav-item-arrow">
 								<use href="./assets/sprites.svg#arrow"></use>
 							</svg>
@@ -59,11 +67,23 @@
 					<div class="header_nav-mobile-wrapper">
 						<div class="header_nav-mobile-container">
 							<ul class="header__nav-mobile-list">
-								<li class="header__nav-mobile-item">Home</li>
-								<li class="header__nav-mobile-item">About us</li>
-								<li class="header__nav-mobile-item">Service</li>
 								<li class="header__nav-mobile-item">
-									Page
+									<a href="#home" class="header__nav-mobile-link">Home</a>
+								</li>
+								<li class="header__nav-mobile-item">
+									<a href="#about-us" class="header__nav-mobile-link"
+										>About us</a
+									>
+								</li>
+								<li class="header__nav-mobile-item">
+									<a href="#our-service" class="header__nav-mobile-link"
+										>Service</a
+									>
+								</li>
+								<li class="header__nav-mobile-item">
+									<a href="#our-pricing" class="header__nav-mobile-link"
+										>Page</a
+									>
 									<svg class="header__nav-mobile-item-arrow">
 										<use href="./assets/sprites.svg#arrow"></use>
 									</svg>
@@ -78,7 +98,7 @@
 			</div>
 		</header>
 
-		<section class="hero" aria-label="hero section">
+		<section class="hero" aria-label="hero section" id="home">
 			<svg class="hero__bg-lines">
 				<use href="./assets/sprites.svg#bg-netting"></use>
 			</svg>
@@ -203,7 +223,7 @@
 			</div>
 		</section>
 
-		<section class="about-us" aria-label="about us section">
+		<section class="about-us" aria-label="about us section" id="about-us">
 			<div class="about-us__container">
 				<div class="about-us__main-image-wrapper">
 					<img
@@ -246,7 +266,11 @@
 			</div>
 		</section>
 
-		<section class="our-service" aria-label="our service section">
+		<section
+			class="our-service"
+			aria-label="our service section"
+			id="our-service"
+		>
 			<div class="our-service__container">
 				<div class="our-service__information-wrapper">
 					<div class="our-service__title-and-sedcription-wrapper">
@@ -278,7 +302,7 @@
 								your vision to life.
 							</p>
 							<button type="button" class="button-second-type">
-								<a href="https://www.google.com/">LEARN MORE</a>
+								LEARN MORE
 							</button>
 						</div>
 						<div class="card" aria-label="card">
@@ -504,52 +528,142 @@
 						alt="amazed man in the vr glasses"
 					/>
 				</div>
-				<div class="what-our-clients-are-saying__client-image-wrapper">
-					<img
-						class="what-our-clients-are-saying__client-image"
-						src="assets/images/first-client.webp"
-						alt="happy smiling man"
-					/>
+				<div class="what-our-clients-are-saying__client-wrapper">
+					<div
+						class="what-our-clients-are-saying__client-image-wrapper what-our-clients-are-saying__client-image-wrapper--active"
+					>
+						<img
+							class="what-our-clients-are-saying__client-image"
+							src="assets/images/first-client.webp"
+							alt="happy smiling man"
+						/>
+					</div>
+					<div
+						class="what-our-clients-are-saying__opinion-wrapper what-our-clients-are-saying__opinion-wrapper--opened"
+						aria-label="opinion card"
+					>
+						<p class="what-our-clients-are-saying__opinion">
+							The team was professional, responsive, and a pleasure to work
+							with. We highly recommend VRNas for any VR needs.
+						</p>
+						<p class="what-our-clients-are-saying__client-name">
+							Robert Fox - <span>CEO Anono</span>
+						</p>
+					</div>
 				</div>
-				<div class="what-our-clients-are-saying__client-image-wrapper">
-					<img
-						class="what-our-clients-are-saying__client-image"
-						src="assets/images/second-client.webp"
-						alt="happy smiling man"
-					/>
+				<div class="what-our-clients-are-saying__client-wrapper">
+					<div class="what-our-clients-are-saying__client-image-wrapper">
+						<img
+							class="what-our-clients-are-saying__client-image"
+							src="assets/images/second-client.webp"
+							alt="happy smiling man"
+						/>
+					</div>
+					<div
+						class="what-our-clients-are-saying__opinion-wrapper"
+						aria-label="opinion card"
+					>
+						<p class="what-our-clients-are-saying__opinion">
+							The team was professional, responsive, and a pleasure to work
+							with. We highly recommend VRNas for any VR needs.
+						</p>
+						<p class="what-our-clients-are-saying__client-name">
+							Robert Fox - <span>CEO Anono</span>
+						</p>
+					</div>
 				</div>
-				<div class="what-our-clients-are-saying__client-image-wrapper">
-					<img
-						class="what-our-clients-are-saying__client-image"
-						src="assets/images/third-client.webp"
-						alt="happy smiling man"
-					/>
+				<div class="what-our-clients-are-saying__client-wrapper">
+					<div class="what-our-clients-are-saying__client-image-wrapper">
+						<img
+							class="what-our-clients-are-saying__client-image"
+							src="assets/images/third-client.webp"
+							alt="happy smiling man"
+						/>
+					</div>
+					<div
+						class="what-our-clients-are-saying__opinion-wrapper"
+						aria-label="opinion card"
+					>
+						<p class="what-our-clients-are-saying__opinion">
+							The team was professional, responsive, and a pleasure to work
+							with. We highly recommend VRNas for any VR needs.
+						</p>
+						<p class="what-our-clients-are-saying__client-name">
+							Robert Fox - <span>CEO Anono</span>
+						</p>
+					</div>
 				</div>
-				<div class="what-our-clients-are-saying__client-image-wrapper">
-					<img
-						class="what-our-clients-are-saying__client-image"
-						src="assets/images/first-client.webp"
-						alt="happy smiling man"
-					/>
+				<div class="what-our-clients-are-saying__client-wrapper">
+					<div class="what-our-clients-are-saying__client-image-wrapper">
+						<img
+							class="what-our-clients-are-saying__client-image"
+							src="assets/images/first-client.webp"
+							alt="happy smiling man"
+						/>
+					</div>
+					<div
+						class="what-our-clients-are-saying__opinion-wrapper"
+						aria-label="opinion card"
+					>
+						<p class="what-our-clients-are-saying__opinion">
+							The team was professional, responsive, and a pleasure to work
+							with. We highly recommend VRNas for any VR needs.
+						</p>
+						<p class="what-our-clients-are-saying__client-name">
+							Robert Fox - <span>CEO Anono</span>
+						</p>
+					</div>
 				</div>
-				<div class="what-our-clients-are-saying__client-image-wrapper">
-					<img
-						class="what-our-clients-are-saying__client-image"
-						src="assets/images/second-client.webp"
-						alt="happy smiling man"
-					/>
+				<div class="what-our-clients-are-saying__client-wrapper">
+					<div class="what-our-clients-are-saying__client-image-wrapper">
+						<img
+							class="what-our-clients-are-saying__client-image"
+							src="assets/images/second-client.webp"
+							alt="happy smiling man"
+						/>
+					</div>
+					<div
+						class="what-our-clients-are-saying__opinion-wrapper"
+						aria-label="opinion card"
+					>
+						<p class="what-our-clients-are-saying__opinion">
+							The team was professional, responsive, and a pleasure to work
+							with. We highly recommend VRNas for any VR needs.
+						</p>
+						<p class="what-our-clients-are-saying__client-name">
+							Robert Fox - <span>CEO Anono</span>
+						</p>
+					</div>
 				</div>
-				<div class="what-our-clients-are-saying__client-image-wrapper">
-					<img
-						class="what-our-clients-are-saying__client-image"
-						src="assets/images/third-client.webp"
-						alt="happy smiling man"
-					/>
+				<div class="what-our-clients-are-saying__client-wrapper">
+					<div class="what-our-clients-are-saying__client-image-wrapper">
+						<img
+							class="what-our-clients-are-saying__client-image"
+							src="assets/images/third-client.webp"
+							alt="happy smiling man"
+						/>
+					</div>
+					<div
+						class="what-our-clients-are-saying__opinion-wrapper"
+						aria-label="opinion card"
+					>
+						<p class="what-our-clients-are-saying__opinion">
+							The team was professional, responsive, and a pleasure to work
+							with. We highly recommend VRNas for any VR needs.
+						</p>
+						<p class="what-our-clients-are-saying__client-name">
+							Robert Fox - <span>CEO Anono</span>
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="our-pricing" aria-label="our pricing section">
+		<section
+			class="our-pricing"
+			aria-label="our pricing section"
+			id="our-pricing"
+		>
 			<div class="our-pricing__container">
 				<h3 class="our-pricing__section-name">OUR PRICING</h3>
 				<h2 class="our-pricing__title">Affordable VR Services for Everyone</h2>
@@ -747,19 +861,21 @@
 					<div class="footer__quicklinks-wrapper">
 						<h6 class="footer__quicklinks-title">Quicklinks</h6>
 						<ul class="footer__quicklinks-list">
-							<li>Home</li>
-							<li>Pricing Plan</li>
-							<li>Service</li>
-							<li>Our Team</li>
+							<li><a href="#home" class="footer__link">Home</a></li>
+							<li>
+								<a href="#our-pricing" class="footer__link">Pricing Plan</a>
+							</li>
+							<li><a href="#our-service" class="footer__link">Service</a></li>
+							<li><a href="#about-us" class="footer__link">Our Team</a></li>
 						</ul>
 					</div>
 					<div class="footer__support-wrapper">
 						<h6 class="footer__support-title">Support</h6>
 						<ul class="footer__support-list">
-							<li>About us</li>
-							<li>Contact us</li>
-							<li>FAQ</li>
-							<li>Tems & Conditions</li>
+							<li><a href="#about-us" class="footer__link">About us</a></li>
+							<li><a href="#" class="footer__link">Contact us</a></li>
+							<li><a href="#" class="footer__link">FAQ</a></li>
+							<li><a href="#" class="footer__link">Tems & Conditions</a></li>
 						</ul>
 					</div>
 					<div class="footer__help-wrapper">

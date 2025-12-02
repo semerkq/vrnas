@@ -8,6 +8,7 @@ import { initHowToGetStartedAnimation } from "./scripts/scroll-animation-how-to-
 import { initWhatOurClientsAreSayingAnimation } from "./scripts/scroll-animation-what-our-clients.js";
 import { initOurPricingAnimation } from "./scripts/scroll-animation-our-pricing.js";
 import { initOurTrustedPartnersAnimation } from "./scripts/scroll-animation-our-trusted-partners.js";
+import { showOpinionCard } from "./scripts/what-our-clients-are-saying.js";
 
 changeColorOfHeader();
 initHeroScrollAnimation();
@@ -19,3 +20,4 @@ initHowToGetStartedAnimation();
 initWhatOurClientsAreSayingAnimation();
 initOurPricingAnimation();
 initOurTrustedPartnersAnimation();
+showOpinionCard();

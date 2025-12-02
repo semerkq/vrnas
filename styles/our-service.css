@@ -336,4 +336,21 @@
 		height: 40px;
 		width: 120px;
 	}
+
+	.our-service__section-name,
+	.our-service__title,
+	.our-service__description,
+	.our-service__column-wrapper,
+	.our-service__column-wrapper:nth-child(1),
+	.our-service__column-wrapper:nth-child(2),
+	.our-service__column-wrapper:nth-child(3),
+	.card,
+	.card__icon,
+	.card__title,
+	.card__description,
+	.button-second-type {
+		animation: none;
+		transition: none;
+		opacity: 1;
+	}
 }

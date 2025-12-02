@@ -323,4 +323,26 @@
 		margin: 10px 0 0 0;
 		font-size: 12px;
 	}
+
+	.about-us__main-image-wrapper,
+	.about-us__video,
+	.about-us__section-name,
+	.about-us__title,
+	.about-us__description,
+	.about-us__list,
+	.button--about-us {
+		animation: none;
+		transition: none;
+		opacity: 1;
+	}
+
+	.about-us__video {
+		animation: none !important;
+		opacity: 1;
+	}
+
+	.about-us__video:hover .about-us__video-cover,
+	.about-us__video:hover .about-us__video-icon {
+		scale: 1;
+	}
 }

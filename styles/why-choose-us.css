@@ -292,4 +292,19 @@
 	.why-choose-us-image-wrapper::after {
 		translate: -27% -1.5%;
 	}
+
+	.why-choose-us__section-name,
+	.why-choose-us__title,
+	.why-choose-us__reasons-wrapper,
+	.why-choose-us__reason-title,
+	.why-choose-use__reason-description,
+	.why-choose-us-image-wrapper,
+	.why-choose-us-image,
+	.why-choose-us-image-wrapper::before,
+	.why-choose-us-image-wrapper::after,
+	.why-choose-us__video {
+		animation: none;
+		transition: none;
+		opacity: 1;
+	}
 }

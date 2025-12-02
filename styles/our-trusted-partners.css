@@ -144,7 +144,6 @@
 		.our-trusted-partners .our-trusted-partners__section-name
 	) {
 	animation: secondTypeOfEmergence 0.7s ease-in-out forwards;
-	overflow-x: hidden;
 }
 
 @media (max-width: 1260px) {
@@ -362,5 +361,31 @@
 	.our-trusted-partners__partner-container:nth-of-type(8) {
 		top: 320px;
 		right: -28px;
+	}
+
+	.our-trusted-partners__section-name,
+	.our-trusted-partners__title,
+	.our-trusted-partners__main-image-wrapper,
+	.our-trusted-partners__main-image,
+	.our-trusted-partners__partner-container,
+	.our-trusted-partners__icon {
+		animation: none;
+		transition: none;
+		opacity: 1;
+		transform: none;
+	}
+
+	.our-trusted-partners:not(
+			.our-trusted-partners .our-trusted-partners__title,
+			.our-trusted-partners .our-trusted-partners__section-name
+		) {
+		opacity: 1;
+	}
+
+	.our-trusted-partners--visible:not(
+			.our-trusted-partners .our-trusted-partners__title,
+			.our-trusted-partners .our-trusted-partners__section-name
+		) {
+		animation: none;
 	}
 }

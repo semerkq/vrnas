@@ -105,7 +105,7 @@
 	flex-direction: column;
 	gap: 32px;
 	margin: 55px 0 55px 42px;
-	z-index: 999;
+	z-index: 997;
 }
 
 .our-pricing__pricing__cards-wrapper::after {
@@ -152,7 +152,7 @@
 	max-width: 330px;
 	height: 100%;
 	align-self: flex-end;
-	z-index: 999;
+	z-index: 998;
 }
 
 .our-pricing__price-card {
@@ -170,7 +170,7 @@
 	right: 10%;
 	top: 100%;
 	translate: 0 -50%;
-	z-index: 999;
+	z-index: 998;
 }
 
 .our-pricing__price-card-top-text {
@@ -259,7 +259,7 @@
 	.our-pricing__pricing__cards-wrapper {
 		gap: 20px;
 		margin: 25px 0 25px 22px;
-		z-index: 999;
+		z-index: 998;
 	}
 
 	.our-pricing__pricing__cards-wrapper::after {
@@ -398,5 +398,19 @@
 		width: 120px;
 		height: 30px;
 		font-size: 10px;
+	}
+
+	.our-pricing__section-name,
+	.our-pricing__title,
+	.our-pricing__description,
+	.our-pricing__pricing,
+	.our-pricing__price-card,
+	.button--card-price,
+	.our-pricing__pricing-benefits-card,
+	.our-pricing__pricing-image {
+		animation: none;
+		transition: none;
+		opacity: 1;
+		transform: none;
 	}
 }

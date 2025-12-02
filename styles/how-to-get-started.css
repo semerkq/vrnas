@@ -344,5 +344,21 @@
 
 	.button--how-to-get-started {
 		width: 130px;
+		z-index: 997;
+	}
+
+	.how-to-get-started__section-name,
+	.how-to-get-started__title,
+	.how-to-get-started__video-container,
+	.how-to-get-started__video-container img,
+	.how-to-get-started__video-icon,
+	.how-to-get-started__video-tag,
+	.how-to-get-started__video-title,
+	.how-to-get-started__video-timeline-container,
+	.how-to-get-started__icon-wrapper,
+	.button--how-to-get-started {
+		animation: none;
+		transition: none;
+		opacity: 1;
 	}
 }

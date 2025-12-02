@@ -336,4 +336,20 @@
 		scale: 1;
 		translate: 0 -24%;
 	}
+
+	.hero__title,
+	.hero__description,
+	.hero__clients-container,
+	.hero__video,
+	.hero__main-image-wrapper img,
+	.hero__main-image-wrapper::before {
+		animation: none;
+		transition: none;
+		opacity: 1;
+	}
+
+	.hero__video:hover .hero__video-cover,
+	.hero__video:hover .hero__video-icon {
+		scale: 1;
+	}
 }

@@ -131,4 +131,10 @@
 	.advantages__container .card__title {
 		margin: 3px 0 0 0;
 	}
+
+	.advantages__container {
+		animation: none;
+		transition: none;
+		opacity: 1;
+	}
 }
